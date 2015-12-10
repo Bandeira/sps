@@ -1,0 +1,392 @@
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>Add Sequence</title>
+<meta name="programmer" content="HTML">
+
+
+<style type="text/css">
+	table
+	{
+		border-collapse:collapse;
+	}
+</style>
+
+<SCRIPT language="javascript" type="text/javascript">
+
+	function validateForm()
+	{
+		var chk = false;
+		
+		var x = document.all.seqName.value;
+		
+		var theTable = document.all.extraSpectrumTable
+	
+		var i=0; 
+		for(i=1; i<theTable.rows.length; i++)
+		{
+			var out = theTable.rows[i].cells[0].firstChild.nodeValue;
+			if( x == out)
+			{
+				alert("Already exist");
+				return false
+			}
+		}
+		
+		var errorcheck = 0;
+		var selection = document.getElementsByName('button1');				
+		for (i=0; i<selection.length; i++)
+		{
+			if (selection[i].checked == true)
+			{
+				if( selection[i].value == "D")
+				{
+					errorcheck = 1;
+					break;
+				}
+			}
+
+		}
+		
+		var selection = document.getElementsByName('button2');				
+		for (i=0; i<selection.length; i++)
+		{
+			if (selection[i].checked == true)
+			{
+				if( selection[i].value == "L" && errorcheck == 1)
+				{
+					errorcheck = 2;
+					break;
+				}
+			}
+
+		}
+		
+		if( errorcheck == 2 )
+		{
+			alert("D Region + Light chanin is not right");
+			return false;
+		}
+		else
+			return true;
+		
+	}	
+	
+
+	function delRow(item1){
+		
+		var theTable = document.all.extraSpectrumTable
+		
+		//Call script that delete corresponding file
+		var out = theTable.rows[item1].cells[0].firstChild.nodeValue;
+		
+		var xmlhttp;
+		
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		
+		//Pass the object to script file
+		xmlhttp.open("POST","remove_file.py",true);
+		xmlhttp.send(out);
+		
+		theTable.deleteRow(item1);
+	}
+
+
+	function addRow(item1, item2, item3, item4) {
+		
+		//validity check
+		var result = validateForm();
+		
+		if( result == false)
+			return false;
+		
+		if ( item1.length == 0)
+		{
+			alert("Please specify name");
+			return false;
+		}
+		
+		if( item2 )
+		{
+			// assign long reference to shorter var name
+			
+				var theTable = document.all.extraSpectrumTable
+				var resultTable = document.all.showResult
+				
+				var x=document.getElementById('showResult').rows[0].cells;
+				//x[1].innerHTML=parseInt(x[1].innerHTML)+1;
+				x[1].innerHTML=parseInt(theTable.rows.length);
+				
+				var y=document.getElementById('showResult').rows[1].cells;
+				y[1].innerHTML=parseInt(y[1].innerHTML)+item2.length;
+			
+				theTable.setAttribute("border","1");
+		
+				var newRow = theTable.insertRow(theTable.rows.length)
+				
+				// give the row its own ID
+				newRow.id = newRow.uniqueID
+				newRow.align = "center"
+				newRow.valign = "center"
+				newRow.height ="10"
+				newRow.style.fontFamily ="Candara"
+				newRow.style.fontSize ="15"
+				newRow.style.color ="#7F7F7F"
+					
+				// declare cell variable
+				var newCell
+				
+				// an inserted row has no cells, so insert the cells
+				newCell = newRow.insertCell(0)
+				// give this cell its own id
+				newCell.id = newCell.uniqueID
+				// display the row's id as the cell text
+				
+				newCell.innerText = item1;
+				
+				
+				newCell.width = "234"
+				newCell.align ="left"
+				
+				
+				// reuse cell var for second cell insertion
+				newCell = newRow.insertCell(1)
+				newCell.id = newCell.uniqueID
+				newCell.innerText = item2.length
+				newCell.width = "133"
+
+				
+				// reuse cell var for third cell insertion
+				newCell = newRow.insertCell(2)
+				newCell.id = newCell.uniqueID
+				var errorcheck =0;
+				var selection = document.getElementsByName('button1');				
+				for (i=0; i<selection.length; i++)
+				{
+					if (selection[i].checked == true)
+					{
+						newCell.innerText = selection[i].value;
+					}
+				}
+				
+				newCell.width = "133"
+
+				
+				// reuse cell var for fourth cell insertion
+				newCell = newRow.insertCell(3)
+				newCell.id = newCell.uniqueID
+				var selection = document.getElementsByName('button2');				
+				for (i=0; i<selection.length; i++)
+				{
+					if (selection[i].checked == true)
+					{
+						newCell.innerText = selection[i].value;
+					}	
+				}
+				
+				
+				newCell.width = "94"
+				newCell.align ="left"
+				
+				// reuse cell var for fifth cell insertion
+				newCell = newRow.insertCell(4)
+				newCell.width = "24"
+				
+				var img = document.createElement("img");
+				img.src = "trash.png";
+				img.id = "trash"
+				img.onclick = function(){delRow(this.parentNode.parentNode.rowIndex)};
+				
+				newCell.appendChild(img);
+				
+							// declare cell variable
+				var newCell
+				
+				// an inserted row has no cells, so insert the cells
+				newCell = newRow.insertCell(5)
+				// give this cell its own id
+				newCell.id = newCell.uniqueID
+				// display the row's id as the cell text
+				
+				newCell.innerText = item2;
+			//	alert(newCell.innerText);
+				newCell.style.display ="none";
+				newCell.width = "234"
+				newCell.align ="left"
+		
+		}
+		
+}
+
+</SCRIPT>
+
+
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+
+<form>
+<br/>
+<table class="mainform" border="0" width="80%" align="center">
+
+	<tr><th width="848" align="left" colspan="3" height="26" bgcolor="#0066FF"><b><span style="font-size:12pt;"><font face="Calibri" color="white">Add Sequences</font></span></b></th></tr>
+	<tr height="10"><td width="363"></td></tr>	
+	<tr width="860">
+		<td width="363">
+            <div style="text-align:center;">
+								<p align="center"><font face="Calibri">Sequence Name <input name="seqName" id="seqName" type="text" /></font>  <br/>
+				<font face="Calibri" color="#7F7F7F"><i><textarea rows="5" cols="30" name="contents" onfocus="this.value = ( this.value == this.defaultValue ) ? '' : this.value;return true;">Enter sequence</textarea></i></font>
+</p>
+            </div>
+		</td>
+		    
+		<td width="478">
+            <div style="text-align:center;">
+								<p align="center"><font face="Calibri">Sequence File Name <input name="seqFile" type="File" value="Browse"></font>     </p>
+            </div>
+		</td>
+	</tr>
+	<tr height="20"><td width="363"></td></tr>
+	<tr>
+		<td colspan="2" width="845"><table style="border:1px solid grey;" width="30%" align="center" cellspacing="0">
+			<tr>
+				<td> <input name="button1" value="V" type="radio" /><font face="Calibri">V Region</font> </td>
+				<td> <input name="button2" value="L" type="radio" /><font face="Calibri">Light Chain </font></td>
+			</tr>
+			<tr>
+				<td> <input name="button1" value="D" type="radio" checked="checked" /><font face="Calibri">D Region </font></td>
+				<td> <input name="button2" value="H" type="radio" checked="checked" /><font face="Calibri">Heavy Chain </font></td>
+			</tr>
+			<tr>
+				<td> <input name="button1" value="J" type="radio" /><font face="Calibri">J Region </font></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td> <input name="button1" value="C" type="radio" /><font face="Calibri">C Region </font></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td> <input name="button1" value="VDJC" type="radio" /><font face="Calibri">Full Sequence </font></td>
+				<td></td>
+			</tr>
+
+		</td></table>
+	</tr>
+	<tr>
+		<td align="right" colspan="2" width="845"><input type="button" value="Add" onclick='if(addRow(this.form.seqName.value, this.form.contents.value, this.form.button1.value, this.form.button2.value)) return true; else return false;'></td>
+	</tr>
+</table><br/>
+
+<table class="mainform" border="0" width="80%" align="center">
+<tr><th width="848" align="left" height="26" bgcolor="#0066FF"><b><span style="font-size:12pt;"><font face="Calibri" color="white">Current Sequences</font></span></b></th></tr>
+<tr><td height="10"></td></tr>
+</table>
+
+<table id="extraSpectrumTable"class="mainform" border="1" style="border:1px solid grey;" width="75%" align="center" cellspacing="0" bordercolordark="white" bordercolorlight="black">
+		
+		<tr>
+			<td bgcolor="#0000FF" width="234" align="left"><font face="Calibri" color="white">&nbsp;Sequence Name</font></td>
+			<td bgcolor="#0000FF" width="133" align="left"><font face="Calibri" color="white">&nbsp;Length(AAs)</font></td>
+			<td bgcolor="#0000FF" width="133" align="left"><font face="Calibri" color="white">&nbsp;Type</font></td>
+			<td bgcolor="#0000FF" width="94" align="left"><font face="Calibri" color="white">&nbsp;Chain</font></td>
+			<td bgcolor="#0000FF" width="24" align="center"><font face="Calibri" color="white"></font></td>
+			
+		</tr>
+
+
+</table>
+<br/>
+
+<table id="showResult" border="0" width="80%" align="center">
+	<br/>
+	<tr>
+        <td width="498" align="right" >
+			Total Protein Sequences: 
+		</td>
+		<td width="350" align="left" >
+			0
+		</td>
+	</tr>
+	<tr>
+		<td width="498" align="right" >
+			Total Amino Acids: 
+		</td>
+		<td width="350" align="left" >
+			0
+		</td>
+	</tr>
+</table>
+
+<SCRIPT language="javascript" type="text/javascript">
+function saveFile()
+{
+
+	//save values in table to addSeq.txt
+	var theTable = document.all.extraSpectrumTable
+
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	
+//		xmlhttp.onreadystatechange=function()
+//		{
+//			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+//			{
+//				document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+//			}
+//		}
+	//Call script that delete corresponding file
+	var i=0; 
+	for(i=1; i<theTable.rows.length; i++)
+	{
+		var out = theTable.rows[i].cells[2].firstChild.nodeValue+theTable.rows[i].cells[3].firstChild.nodeValue;
+		var name = theTable.rows[i].cells[0].firstChild.nodeValue;
+		var seqName = theTable.rows[i].cells[5].firstChild.nodeValue;
+		
+		var pass = out + "#" + name + "#" + seqName;
+			
+		xmlhttp.open("POST","generate_file.py",false);
+		xmlhttp.send(pass);
+		
+
+	//	for( j=0 ; j<5 ; j++)
+	//	{
+		
+						
+	//	}
+	}
+
+	window.close();
+	
+}
+</SCRIPT>
+
+
+<table id="saveResult" border="0" width="80%" align="center">
+	<tr><br/>
+		<td align="center" width="848">
+			<input type="button" value="Save & Close" onclick="saveFile()"> <input type="reset" value="Cancel" onclick="">
+		</td>
+	</tr>
+</table>
+
+
+</form>
+
+</body>
+

@@ -1,0 +1,29 @@
+SPSROOT=`pwd`; export SPSROOT
+TYPE=`uname`
+ARCH=`uname -m`
+
+#check whether we're in Windows or Linux
+if [[ $TYPE == 'Linux' ]]; then
+	if [[ $ARCH == 'x86_64' ]]; then
+		INSTALL_DIR='install/linux-g++-64';
+	else
+		INSTALL_DIR='install/linux-g++';
+	fi
+	#LD_LIBRARY_PATH only for Linux
+	if [[ -z $LD_LIBRARY_PATH ]]; then
+		LD_LIBRARY_PATH=$SPSROOT/$INSTALL_DIR/lib
+	else
+		LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SPSROOT/$INSTALL_DIR/lib
+	fi
+	export LD_LIBRARY_PATH
+fi
+
+if echo $TYPE | grep -q "CYGWIN"; then
+	#Cygwin is only 32 bit, need to update if it ever adds a 64 bit build.
+	INSTALL_DIR='install/win32-g++';
+	#windows expects DLLs to be included in PATH:
+	PATH=$PATH:$SPSROOT/$INSTALL_DIR/lib
+	PATH=$PATH:$SPSROOT/$INSTALL_DIR/bin
+	export PATH
+fi
+

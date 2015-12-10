@@ -1,0 +1,72 @@
+\documentclass[arial,11pt]{article}
+%\documentclass[11pt]{nih}
+\usepackage{amssymb}
+%\usepackage{graphicx}
+%\usepackage{longtable}
+\usepackage{epsfig}
+%\usepackage{overcite}
+\usepackage[usenames]{color}
+\usepackage{xspace}
+\usepackage{threeparttable}
+\usepackage{url}
+\usepackage{multibbl}
+
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\pagestyle{empty}
+
+%\usepackage{times}
+\usepackage{geometry}
+%\geometry{tmargin=1in,bmargin=1.0in,lmargin=1in,rmargin=1in}
+\geometry{tmargin=0.95in,bmargin=0.95in,lmargin=0.95in,rmargin=0.95in}
+%\linespread{0.95} \interfootnotelinepenalty=10000
+
+%%%%% editing helpers
+\newcommand{\NeedRevision}[1]{\textcolor{red}{#1}}
+
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\DeclareRobustCommand{\STONE}[1]{\StrLen{#1}[\mylen]\ooalign{
+    \hfil{\large\CIRCLE}\hfil\cr
+    \ifthenelse{\mylen > 1}
+      {\hfil\raise .22ex \hbox{\textcolor{white}{\tiny\textsf{#1}}}\hfil\cr}
+      {\hfil\raise .10ex \hbox{\textcolor{white}{\scriptsize\textsf{#1}}}\hfil\cr}}}
+
+%%%%% aliases for sys-services
+\newcommand{\SF}[1]{\textsf{#1}}
+\newcommand{\SYSTEM}[0]{\SF{ProteoSAFe}\xspace}
+\newcommand{\LiveSearch}[0]{\SF{LiveSearch}\xspace}
+\newcommand{\LiveFlow}[0]{\SF{LiveFlow}\xspace}
+\newcommand{\LiveGrid}[0]{\SF{LiveGrid}\xspace}
+\newcommand{\LiveAdmin}[0]{\SF{LiveAdmin}\xspace}
+\newcommand{\Interpreter}[0]{\SF{Interpreter}\xspace}
+
+%%%% table markup helpers
+\newcommand{\CHK}[0]{$\times$}
+\newcommand{\PAR}[0]{$\bigtriangleup$}
+%\newcommand{\NA}[0]{\textsf{\scriptsize{N/A}}}
+\newcommand{\NA}[0]{}
+\newcommand{\rothead}[1]{\rotatebox{90}{#1}}%
+
+\begin{document}
+
+\newpage
+\setcounter{section}{0}
+\input{TRD_specnets/TRD_specnets}
+\clearpage
+
+%\newpage
+%\setcounter{section}{0}
+%\input{../TRD_nb_multiplex/TRD_nb_multiplex}
+%\clearpage
+
+\newpage
+\setcounter{section}{0}
+\input{TRD_software/TRD_software}
+\clearpage
+
+%\newpage
+%\setcounter{section}{0}
+%\input{../TRD_pevzner_universal/TRD_pevzner_universal}
+%\clearpage
+
+\end{document}

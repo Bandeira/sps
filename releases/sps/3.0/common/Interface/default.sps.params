@@ -1,0 +1,43 @@
+# System parameters
+EXE_DIR=**** Please fill me in ****
+
+#New report Parameters
+REPORT_DYNAMIC=1
+REPORT_SERVER=**** Please fill me in ****
+REPORT_CELLS_PER_LINE=21
+
+
+# SGE parameters
+GRID_NUMNODES=-1
+# GRID_NUMCPUS=1
+# GRID_SGE_EXE_DIR=**** Please fill me in ****
+# GRID_EXE_DIR=**** Please fill me in ****
+
+# Preprocessing parameters
+CLUSTER_MIN_SIZE=1
+CLUSTER_MODEL=LTQ_TRYP
+MIN_SPECTRUM_QUALITY=0.1
+CORRECT_PM=no
+GUESS_CHARGE=yes
+
+# Alignment parameters
+MIN_OVERLAP_AREA=0.45
+RESOLUTION=0.1
+FILTER_TRIGS=yes
+MIN_MOD_MASS=-100
+MAX_MOD_MASS=100
+MIN_RATIO=0.4
+MAX_PVALUE=0.05
+MIN_MATCHED_PEAKS=4
+PARTIAL_OVERLAPS=1
+
+# Parameters for tag-based selection of homologous proteins
+TAG_LEN=6
+MAX_AA_JUMP=2
+DOUBLE_AA_JUMPS=1
+MATCH_TAG_FLANKING_MASSES=0
+MAX_NUM_MODS=2
+MIN_MATCHED_PEAKS_DB=7
+
+# Parameters for clustalw sequence alignments
+CLUSTALW_MINSCORE=250

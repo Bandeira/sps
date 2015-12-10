@@ -1,0 +1,139 @@
+################################################################################
+# Conditions
+################################################################################
+CC := gcc
+CXX := g++
+
+CPPFLAGS := -fPIC -DSPS_VERSION=$(SPS_VERSION) -pthread  -I. -I$(COMMON_FILES) -I$(EXEC_DIR) -I$(REPORT_COMMON_FILES) -I$(LIBZ_ROOT) -I$(PDFHARU_ROOT)/include -I$(XERCES_ROOT)/src -I$(CONTPLOT_DIR) -I$(SPECPLOT_DIR) -I$(REPORT_DIR) -I$(METASPS_DIR) -I$(LIBCORE_DIR) -I$(LIBSPS_DIR) -I$(PWIZ_ROOT) -I$(PWIZ_ROOT)/libraries/boost_1_43_0
+
+LDFLAGS := -L$(LIBSPSREPORTS_DIR) -L$(LIBSPS_DIR) -L$(LIBCORE_DIR) -L$(COMMON_FILES)
+
+PWIZ_LIBS := -lpwiz_data_vendor_readers -lpwiz_reader_waters -lpwiz_reader_agilent -lpwiz_reader_bruker -lpwiz_reader_thermo -lpwiz_reader_abi -lpwiz_reader_abi_t2d -lpwiz_data_msdata -lpwiz_utility_minimxml -lpwiz_utility_misc -lpwiz_data_identdata -lpwiz_data_identdata_version -lpwiz_utility_chemistry -lpwiz_data_proteome -lpwiz_data_common -lpwiz_data_msdata_mz5 -lhdf5pp -lhdf5 -lpwiz_data_msdata_version -lpwiz_version -lSHA1 -lboost_date_time-gcc41-mt-s -lboost_serialization-gcc41-mt-s -lboost_regex-gcc41-mt-s -lboost_iostreams-gcc41-mt-s -lboost_filesystem-gcc41-mt-s -lboost_program_options-gcc41-mt-s -lz-gcc41-mt-s-1_2 -lboost_system-gcc41-mt-s -lboost_thread-gcc41-mt-s 
+
+AR := ar
+RANLIB := ranlib
+
+STRIP := strip
+
+WIN_LDFLAGS := 
+MINGW_SPECIFIC_FLAGS :=
+
+#-------------------------------------------------------------------------------
+#type=debug
+ifeq ($(type),debug)
+  CPPFLAGS += -O0 -g
+else
+  CPPFLAGS += -O3 -ffunction-sections -fdata-sections -Wno-deprecated -Wno-write-strings
+endif
+
+#-------------------------------------------------------------------------------
+# 'make type=32'
+ifeq ($(type),32)
+  # Linux
+  ifneq (,$(findstring linux,$(shell gcc -dumpmachine)))
+  	PREFIX := $(INSTALL_DIR)/linux-g++
+  	LDFLAGS += -march=i686 -m32
+  	CPPFLAGS += -march=i686 -m32
+  else
+  	PREFIX := $(INSTALL_DIR)/win32-g++
+  	LDFLAGS += -m32
+  	CPPFLAGS += -m32
+  endif
+endif
+
+  # gcc 4
+ifeq ($(shell gcc -dumpversion | cut -d. -f 1), 4)
+  LDFLAGS += -Wl,--gc-sections
+endif
+
+#-------------------------------------------------------------------------------
+# 'make build=static'
+ifeq ($(build),static)
+  LDFLAGS += -static
+endif
+
+#-------------------------------------------------------------------------------
+# 'make'
+ifndef type
+  # gcc 4
+  ifeq ($(shell gcc -dumpversion | cut -d. -f 1), 4)
+    LDFLAGS += -Wl,--gc-sections
+    CPPFLAGS += -mtune=generic
+
+  # gcc 3
+  else
+    CPPFLAGS += -march=$(shell uname -m)
+  endif
+endif
+
+#-------------------------------------------------------------------------------
+# Linux
+ifneq (,$(findstring linux,$(shell gcc -dumpmachine)))
+  ifneq (,$(findstring x86_64,$(shell gcc -dumpmachine)))
+    PREFIX ?= $(INSTALL_DIR)/linux-g++-64
+  else
+    PREFIX ?= $(INSTALL_DIR)/linux-g++
+  endif
+
+  SUFFIX := lib
+  LDFLAGS += -L$(PREFIX)/$(SUFFIX)
+
+#-------------------------------------------------------------------------------
+# Windows
+else
+  ifneq (,$(findstring x86_64,$(shell gcc -dumpmachine)))
+    PREFIX ?= $(INSTALL_DIR)/win32-g++
+  else
+    PREFIX ?= $(INSTALL_DIR)/win32-g++
+  endif
+
+  SUFFIX := cygwin/bin
+
+  ifeq ($(compiler),mingw64)
+    SUFFIX := mingw64/bin
+  endif
+
+  ifeq ($(compiler),mingw32)
+    SUFFIX := mingw32/bin
+  endif
+
+  LDFLAGS += -L$(PREFIX)/$(SUFFIX) -lpthread
+  WIN_LDFLAGS := -no-undefined
+  PWIZ_LIBS :=
+endif
+
+################################################################################
+# Compiler
+################################################################################
+#compiler=mingw64
+ifeq ($(compiler),mingw64)
+  CC := x86_64-w64-mingw32-gcc.exe
+  CXX := x86_64-w64-mingw32-g++.exe
+  AR := /usr/x86_64-w64-mingw32/bin/ar.exe
+  RANLIB := /usr/x86_64-w64-mingw32/bin/ranlib.exe
+  STRIP := /usr/x86_64-w64-mingw32/bin/strip.exe
+  LDFLAGS += -Lc:\mingws\lib -static
+  LIBS += -lws2_32
+  MINGW_SPECIFIC_FLAGS := --build=mingw32 --enable-netaccessor-socket
+  export AR CC CXX RANLIB STRIP LIBS LDFLAGS
+endif
+
+#compiler=mingw32
+ifeq ($(compiler),mingw32)
+  CC := i686-w64-mingw32-gcc.exe
+  CXX := i686-w64-mingw32-g++.exe
+  AR := /usr/i686-pc-mingw32/bin/ar.exe
+  RANLIB := /usr/i686-pc-mingw32/bin/ranlib.exe
+  STRIP := /usr/i686-pc-mingw32/bin/strip.exe
+  LDFLAGS += -Lc:\mingws\lib -static
+  LIBS += -lws2_32
+  MINGW_SPECIFIC_FLAGS := --build=mingw32 --enable-netaccessor-socket
+  export AR CC CXX RANLIB STRIP LIBS LDFLAGS
+endif
+
+################################################################################
+# Variables to be passed to other Makefiles
+################################################################################
+
+.DEFAULT_GOAL := all
+################################################################################

@@ -1,0 +1,64 @@
+\documentclass[endnotes,10pt]{article}
+\usepackage{lscape}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\setlength{\oddsidemargin}{0cm} \setlength{\evensidemargin}{0cm}
+\setlength{\textwidth}{6.5in} \setlength{\textheight}{9in}
+% \linespread{2}
+
+\begin{document}
+\title{Generating Function for Spectral Library Searches}
+\author{}
+\date{}
+\maketitle
+
+Let $R_C$ be a reference spectrum for a compound $C$ and $Q$ be a query spectrum. All spectra have Euclidian norm 1, $S[m]$ represents the peak intensity at mass $m$ and $S\leftarrow C$ indicates that $S$ is generated from compound $C$. Then $SLGF(Q,R_C)$ is the probability $Prob(\cos(Q,R_C)= X|Q\leftarrow C)$ that a spectrum $Q$ of the same compound $C$ matches $R_C$ with a cosine $\leq X$.
+
+Let $SLGF_S(m,c,i)$ be the probability that a spectrum $S$ matches to another spectrum $Q$ from the same compound with cosine $c$ and $Q$ having squared Euclidian norm $i$ in matching peaks up to and including mass $m$. In the equations below, $x$ represents the possible intensities for the current peak and $m$ iterates over all positions $\{m:S[m]\neq 0\}$ (note that other positions do not affect the cosine other than resulting in values of $i$ lower than 1 at the highest value of $m$).
+
+\begin{equation}
+SLGF_S(m,c,i) = \sum_{x=0\rightarrow i}
+   SLGF_S( m-1, c-\sqrt{x}\times S[m], i-x ) \times Prob_S( \sqrt{x}, m )
+\end{equation}
+
+where $SLGF_S(0,0,0) = 1$, $\forall_{c>0 \cup i>0} SLGF_S(0,c,i) = 0$ and
+
+\begin{equation}
+Prob_S( u, m ) =
+        \left\{ \begin{array}{ll}
+            DelFreq( m ) & \mbox{if\ } u = 0\\
+            (1-DelFreq(m))\times RatioFreq( abs( \log_2( \frac{ u }{ S[m] } ) ) ) & \mbox{if\ } u\neq 0
+        \end{array}
+        \right.
+\end{equation}
+
+and
+
+\begin{itemize}
+  \item $DelFreq(v)$ is the probability of observing the deletion of a library spectrum peak with intensity $v\%$ of highest intensity peak (base peak)
+  \item $RatioFreq(v, percV)$ is the probability of observing an absolute peak intensity fold variation of $v$ at percent intensity $percV$
+\end{itemize}
+
+The equations above assume we have enough spectra per library peptide to accurately determine $DelFreq$ and $RatioFreq$. Since this unlikely to be the case for most library spectra/peptides, we can also use the alternative formulas where the variability in peak intensities only depends on the absolute intensity of the peaks in the library spectra:
+
+\begin{equation}
+SLGF_L(j,c,i) = \sum_{x=0\rightarrow i}
+   SLGF_L( j-1, c-x\times L[j], i-x ) \times Prob( x, L[j], \frac{L[j]}{max_n j[n]} )
+\end{equation}
+
+where
+
+\begin{equation}
+Prob( u, v , percV) =
+        \left\{ \begin{array}{ll}
+            DelFreq( percV ) & \mbox{if\ } u = 0\\
+            (1-DelFreq(percV))\times RatioFreq( abs( \log_2( \frac{ u }{ v } ) ) , percV ) & \mbox{if\ } u\neq 0
+        \end{array}
+        \right.
+\end{equation}
+
+Note that in this formulation we need to have multiple $RatioFreq(r,v)$ for binned values of $v$ where $v$ is the peak's fraction of maximum absolute intensity in the library spectrum (20 bins are probably enough).
+
+\end{document}

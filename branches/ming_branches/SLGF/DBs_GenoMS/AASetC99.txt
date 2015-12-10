@@ -1,0 +1,20 @@
+G,Glycine,C2H3N1O1
+A,Alanine,C3H5N1O1
+S,Serine,C3H5N1O2
+P,Proline,C5H7N1O1
+V,Valine,C5H9N1O1
+T,Threonine,C4H7N1O2
+C,Cystine with NIPIA (+99),C8H14N2O2S1
+L,Leucine,C6H11N1O1
+I,Isoleucine,C6H11N1O1
+N,Asparagine,C4H6N2O2
+D,Aspartate,C4H5N1O3
+Q,Glutamine,C5H8N2O2
+K,Lysine,C6H12N2O1
+E,Glutamate,C5H7N1O3
+M,Methionine,C5H9N1O1S1
+H,Histidine,C6H7N3O1
+F,Phenylalanine,C9H9N1O1
+R,Arginine,C6H12N4O1
+Y,Tyrosine,C9H9N1O2
+W,Tryptophan,C11H10N2O1

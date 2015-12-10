@@ -1,0 +1,4 @@
+[21-Oct-2009 23:12:35] PHP Strict Standards:  Redefining already defined constructor for class DB in /home/pbouchard/public_html/php/kfm/includes/db.php on line 18
+[21-Oct-2009 23:12:35] PHP Strict Standards:  Redefining already defined constructor for class kfmSession in /home/pbouchard/public_html/php/kfm/classes/kfmSession.php on line 42
+[21-Oct-2009 23:14:14] PHP Strict Standards:  Redefining already defined constructor for class DB in /home/pbouchard/public_html/php/kfm/includes/db.php on line 18
+[21-Oct-2009 23:14:14] PHP Strict Standards:  Redefining already defined constructor for class kfmSession in /home/pbouchard/public_html/php/kfm/classes/kfmSession.php on line 42

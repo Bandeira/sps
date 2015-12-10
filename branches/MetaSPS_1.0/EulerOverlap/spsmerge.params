@@ -1,0 +1,35 @@
+
+
+# Global Parameters
+INPUT_CONTIG_SPECTRA (*.pklbin)=sps_seqs_merged.pklbin
+INPUT_STAR_SPECTRA (*.pklbin)=stars_merged.pklbin
+INPUT_MATEPAIR_SPECTRA (*.pklbin)=specs_scored_merged.pklbin
+INPUT_CONTIG_ABINFO=component_info_merged.bin
+
+#INPUT_FASTA=
+#INPUT_MATCHED_PEAKS (*midx.pklbin)=
+#INPUT_MATCHED_PROTS (*mp.bin)=
+#CONTAMINANT_PROTEINS (*:*)=
+
+TOLERANCE_PEAK=0.05
+TOLERANCE_PM=0.10
+RESOLUTION=0.01
+MIN_CONTIG_OVERLAP_SCORE=2.7
+MIN_MATCHED_PEAKS_CONTIG_ALIGN=6
+MINIMUM_MATEPAIR_CHARGE=4
+MIN_RATIO_MATEPAIR_ALIGN=0.2
+MIN_RATIO_MATEPAIR_CONTIG_ALIGN=0.6
+MIN_MATCHED_PEAKS_MATEPAIR_ALIGN=6
+
+# Number of threads to use for contig/contig alignment (default = 1)
+NUM_THREADS=1
+
+# Grid Parameters (for mate-pair alignments only)
+GRID_NUMNODES=128
+GRID_EXE_DIR=/scratchbig/aguthals/cpplib
+
+
+# Mate-pair Assembly specific parameters
+MIN_NUM_MATEPAIRS_MERGE=3
+MIN_EDGES_TO_COMPONENT=3
+MIN_COMPONENT_SIZE=3

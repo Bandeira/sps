@@ -1,0 +1,223 @@
+\documentclass[11pt]{article}
+\usepackage{amssymb}
+\usepackage[reqno]{amsmath}
+\usepackage{mathtools}
+
+\begin{document}
+
+\section{Definitions}
+\begin{enumerate}
+\item peptide - Amino acid sequence and modification masses. For a given peptide $p$ let $p = ((a_{1},z_{1}), \cdots (a_{n},z_{n}))$ where $a$ represents an amino acid and $z$ represents a modification.
+\item variant - combination of modification mass an location for a particular peptide. For a variant $v$ of peptide $p$ let $v = ((m_{1},x_{1}), \cdots, (m_{n},x_{n}))$ where $m$ represents the modification mass and $x$ represents the position within peptide $p$.
+\item a variant of a peptide is an assignment of modification masses to specific amino acid positions (i.e., {\em sites}) on a peptide sequence. At most one modification mass is allowed on each amino acid; multiply-modified amino acids are modeled using modifications of the resulting aggregate mass. For example, di-methylation is represented using nominal mass 28~Da instead of modeled as two methylations, each of mass 14~Da.
+
+\item Spectrum - vector of mass intensity pairs. For a given spectrum $\vec{S}$ let $\vec{S} = ((m_{1},y_{1}), \dots, (m_{n},y_{n}))$ where $m_{i}$ and $y_{i}$ represent the mass and intensity of \emph{peak} $i$.
+    
+\item Peptide masses - for simplicity, we define theoretical peptide masses $Masses(P)$ as a set of prefix (N-terminal) and suffix (C-terminal) fragment masses, where each fragment mass is determined by the sum of its constituent amino acid masses. In reality, our method is implemented using the common types of fragments resulting from Collision Induced Dissociation (for our purposes, b and y single and doubly charged and b and y isomers with an extra dalton) and can be easily configured to support other types of mass spectrometry peptide dissociation strategies.
+
+%\item ion types - possible types of peptide fragmentation products for a particular type of mass spectrometry dissociation (e.g., Collision Induced Dissociation). Each ion type is represented here by the mass offset it induces on the summed amino acid masses of the peptide fragment.
+%
+%    consists of the prefix or suffix mass + mass shift + charge / charge
+\end{enumerate}
+
+\section{Enumeration of Modification Variants}
+\begin{enumerate}
+\item Given a peptide identification of length $n$ and consisting of the multiset of modification masses $\mathcal{M} =m_1 \cdots m_k$ with the number of duplicate masses equalling $d$.
+\item  Generate all distinct permutations of length $n$ consisting of $k + 1$ elements ($k$ modifications with a placeholder element for unmodified positions) to generate $\binom{n}{k} \cdot \frac{k!}{d!}$ variants.
+\end{enumerate}
+
+\section{Peptide variant spectra}
+
+\subsection{Similarity between spectra of modified and unmodified peptide variants}
+\begin{enumerate}
+\item Given a spectrum $S$ from a peptide $P$, we define $Intensities(S,P)$ as the intensities of the spectrum peaks in $S$ at $Masses(P)$. Without loss of generality, the vector $Intensities(S,P)$ is always normalized to Euclidian norm 1.
+\item Given a spectrum $S$ from a peptide $P$ and a spectrum $S_v$ from a modified peptide variant $P_v$, we define the similarity between the extracted peak intensities as
+
+    \begin{eqnarray*}
+    Similarity(S,S_v) & = & \cos(Intensities(S,P),Intensities(S_v,P_v)) \\
+                      & = & Intensities(S,P) \cdot Intensities(S_v,P_v)
+    \end{eqnarray*}
+\end{enumerate}
+
+Supplementary Materials Section~\ref{sec:InferDetectabilities} offers an in detail look at how the intensities of modified spectra compare to unmodified spectra from the same peptide sequence.
+
+\subsection{Prediction from unmodified peptide spectra}
+First, we choose the best candidate unmodified spectrum:
+
+\begin{enumerate}
+\item Given a set of spectra $S_1 \cdots S_n$ all from peptide $P$
+\item Given a modified spectrum $S'$ from modified peptide $P'$ whose unmodified version is $P$
+\item Choose the spectrum with the highest $Similarity(S_i, S')$
+\end{enumerate}
+
+Note that there are other methods for choosing can best candidate, for example, giving preference to unmodified spectra from the same dataset as the modified spectrum.
+
+\begin{enumerate}
+\item Given a spectrum $S$ from an unmodified peptide $P$, we want to predict a spectrum for $P_v$, a modified variant of $P$.
+\item Extract peak intensities from $S$ at $Masses(P)$ and use these to set the corresponding peak intensities in $S_v$ at $Masses(P_v)$.
+\end{enumerate}
+
+
+\section{Linear programming model}
+
+\subsection{what is being solved}
+An experimental spectrum is modeled as a linear combination of the intensity vectors for all possible variants of the same modified peptide sequence.
+
+Inputs:
+\begin{enumerate}
+\item A spectrum $S$ from peptide $P$.
+\item A spectrum $S'$ from modified peptide $P'$ whose unmodified sequence matches $P$
+\item A set of variants of $P'$, $V$
+\item Peak tolerance $\delta$
+\end{enumerate}
+
+Generate a vector $T$ of all possible ion masses in variants.
+\begin{enumerate}
+\item Take $Masses(P)$ and add them to $T$.
+\item Take multiset of modification masses $\mathcal{M}=\{m_1,\ldots,m_k\}$ from $P'$ and generate all combinations of mods $M \choose 1$ $\cdots$ $M \choose k$. Sum the masses contained in each combination to get the set of modification mass shifts $C$. 
+\item For each mass $t_i$ in $T$, add modification shifts $C=c_1 \cdots c_j$, $t_i+c_j = t_ij$. Add $t_{i1} \cdots t_{ij}$ to set $T$.
+\end{enumerate}
+
+Generate an LP where the observed intensity in the modified spectrum is expected to be a summation of the expected intensities of each ion scaled by the abundance of each variant. 
+\begin{enumerate}
+\item For each theoretical ion $t_j$ in $T$, if a peak from $S'$ is within tolerance $\delta$, then observed peak intensity $O_j = y$ otherwise observed peak intensity $O_j = 0$
+\item For each theoretical ion $t_j$ if there is a variant $v_i$ where $t_j \in Masses(v_i)$ in the expected peak tolerance, assume that $Q_i$ is contributing to overall intensity $O_j$. We add all such variants to $\mathcal{V}_j \subset V$ To generate expected intensity of the peak, we take the mass unmodified version of the ion of $t_j$ from $S$ to get $d_j$.
+\item For each theoretical ion, we assume that the observed peak is the sum of the contribution of all variants scaled by their quantity and expected intensity. :
+
+\[
+O_j \approx \sum_{i=1}^{|\mathcal{V}_j|}  d_j \times {Q_i}
+\]
+
+From this, we are able to approximate the error for each peak as follows
+
+\[
+\epsilon_j = O_j - \sum_{i=1}^{|\mathcal{V}_j|} d_j \times{Q_i}
+\]
+\end{enumerate}
+
+We then generate an LP which minimizes the error of each peak:
+
+\[
+\begin{array}{l|l|l}
+{\rm Input} & {\rm Output} & {\rm Formulation} \\
+\hline
+\begin{array}{l}
+d_j \mbox{ for every ion } j \\
+O_j \mbox{ for every ion } j \\
+\end{array}&
+\begin{array}{l} Q_i \mbox{ for every}\\
+\mbox{variant } v_i \\
+\end{array}&
+\begin{array}{cll}
+\min &{\displaystyle \sum_{j=1}^{r}{|\varepsilon_j|}}\\[1.5em]
+%{\rm s.t.} & \sum_{p_j\in P} Q_i = 100 & \\[1.5em]
+{\rm s.t.}&{\displaystyle \varepsilon_j = O_j - \sum_{i=1}^{|\mathcal{V}_j|} d_j \times{Q_i} }\\
+[1.5em]
+&{\displaystyle Q_i\geq 0} \\
+\end{array}\\
+&&\\
+&&Q_is\mbox{ are normalized prior to output so that } \sum_i(Q_i) = 1\\
+\end{array}\\
+\]
+
+\section{Grouping procedure}
+
+Inputs
+\begin{enumerate}
+\item Variants $v_1 \cdots v_n$ and quantities $Q_1 \cdots Q_n$ from a single peptide where the quantity of $v_i$ is represented by $Q_i$. 
+\item Modified spectrum $S'$
+\item Grouping threshold $\lambda$
+\end{enumerate} 
+
+For a variant group $g_i$ consisting of $v_1 \cdots v_n$, $Masses(g_i)=Masses(v_1) \cup Masses(v_2) \cdots \cup Masses(v_n)$.
+
+\begin{enumerate}
+\item Form $n$ variant groups containing a single variant, $g_{1} \cdots g_{n}$.
+\item Find the distance between pairs of groups. To calculate the distinguishing intensity between $g_{i}$ and $g_{j}$, take $Masses(Difference)=Masses(g_i) \triangle Masses(g_j)$ and sum the peak intensities from $S'$ which match $Masses(Difference)$ within our peak tolerance to get the distinguishing intensity. We then calculate the distance by dividing the sum of distinguishing intensity by the total identified intensity.
+\item Find the two variant groups $g_{i}$ and $g_{j}$ with the lowest distance. If these groups have a distance above $\lambda$, stop.
+\item Merge the two closest groups and create new group $\vec{g_{k}}$. $Q_k$ is defined as the sum of $Q_i$ and $Q_j$
+\item Recompute distances between $g_{k}$ all other groups.
+\end{enumerate}
+
+\section{Calculating cosine for modified vs. theoretical spectra}
+Inputs
+\begin{enumerate}
+\item Variant groups $g_1 \cdots g_n$ with quantities $Q_1 \cdots Q_n$ from a single peptide where the quantity of $g_i$ is represented by $Q_i$
+\item A spectrum $S$ from peptide $P$.
+\item A spectrum $S'$ from modified peptide $P'$ whose unmodified sequence matches $P$
+\end{enumerate}
+
+Generate theoretical spectra for all variant groups. 
+\begin{enumerate}
+\item For each cluster $g_i$, extract peak intensities from $S$ at $Masses(P)$ and use those to set the corresponding expected intensities $S_i$ at $Masses(g_i)$.
+\item Scale each peak in $S_i$ by quantity indicated by $Q_i$. Add all peaks to theoretical spectrum $T$. Sum intensities of any matching peaks already in $T$. 
+\end{enumerate}
+
+Calculate cosine between theoretical and modified spectrum
+\begin{enumerate}
+\item Calculate $Similarity(S',T)$ to generate the theoretical cosine.
+\end{enumerate}
+
+\section{FLR}
+\subsection{Determining decoys}
+Inputs
+\begin{enumerate}
+\item Variant group $c$ consisting of peptide variants. 
+\item Vector of modification masses and their expected amino acid residues $E = \{(m_1,a_1) \cdots (m_n,a_n)\}$
+\end{enumerate}
+
+Determine whether peptide variant is a decoy
+\[
+isDecoy(v) = \left\{ \begin{array}{l l}
+    0 & \quad \text{if for each amino acid residue non-zero modification pair, $\(a_i,z_i\) \in E$}\\
+    1 & \quad \text{otherwise}
+\end{array} \right.
+\]
+
+Determine whether a variant group is a decoy
+\[
+isDecoy(g) = \left\{ \begin{array}{l l}
+    0 & \quad \text{if there exists a peptide variant $v_i \in c$ where $isDecoy(v_i) = 0$}\\
+    1 & \quad \text{otherwise}
+\end{array} \right.
+\]
+
+\subsection{Calculate decoy scaling factor}
+\begin{enumerate}
+\item Take all variant groups $G$ for all peptides
+\item $TP = n - \sum_{i=1}^{|G|}{isDecoy(g_i)}$, $FP= \sum_{i=1}^{|G|}{isDecoy(g_i)}$.
+\item Scaling factor $\rho = \frac{TP}{FP}$
+\end{enumerate}
+
+\subsection{Calculate FLR non-successive thresholds}\label{sec:FLR}
+Inputs 
+\begin{enumerate}
+\item Variant groups $g_1 \cdots g_n$ with associated quantities $Q_1 \cdots Q_n$ and associated theoretical cosine $t_1 \cdots t_n$. 
+\item FLR cutoff $\gamma$
+\end{enumerate}
+\\
+Calculate FLR
+\begin{enumerate}
+\item Sort variant groups by quantity and theoretical cosine. 
+\item Count number of decoy hits $I$ and number of target hits $T$ at each index
+\item Find maximum index $m$ for $\frac{I*\rho}{T} \leq \gamma$
+\item Return variant groups with indices lower than $m$.
+\end{enumerate}
+
+\subsection{Calculate FLR successive thresholds}
+Inputs
+\begin{enumerate}
+\item Variant group sets $G_1 \cdots G_n$ where the grouping threshold of $G_i$ is equivalent to grouping threshold $i$.
+\item FLR cutoff $\gamma$
+\end{enumerate}
+\\
+Calculate FLR
+\begin{enumerate}
+\item Starting at the lowest threshold $1$, sort $G_1$ according to its associated quantities and theoretical cosines. 
+\item Filter $G_1$ by FLR as described in Section\ref{sec:FLR} to get $G'_1$
+\item For $G_2 \cdots G_n$ if there is a peptide spectrum match $p_i \in G'_1$ filter all associated variant groups for that peptide spectrum match for that group.
+\item Repeat with the next lowest threshold
+\item Once all thresholds have been run, return $G'_1 \cdots G'_n$
+\end{enumerate}
+
+\end{document} 

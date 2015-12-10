@@ -1,0 +1,87 @@
+# Required path to required executable files, e.g. "/usr/local/specnets/bin" or "C:/specnets/bin" (without quotation marks)
+EXE_DIR=/home/aguthals/svn/sps/bin
+
+# Required path to input MS/MS spectra files, specify one or more .mzXML/.mgf/.pklbin files separated by a ";"
+INPUT_SPECS_MS=specs1.mzXML;specs2.mgf
+
+# Required path to reference database containing contaminant proteins (e.g. skin, enzymes used for digestion). This can also include any target proteins that may either be in the sample, or homologous to those in the sample. Resulting de novo sequences will be matched to proteins in this database, and if cSPS is enabled (see next parameter), homology will be utilized to assemble longer sequences.
+FASTA_DATABASE=myDatabase.fasta
+
+# Minimum acceptable alignment score between homologous proteins in the database for cSPS assembly (good values are between 350 and 1000). Set this to a high number (above 1000000) to disable homology assembly by cSPS 
+CLUSTALW_MINSCORE=450
+
+# Specify ppm parent and fragment mass tolerances - these are only used for charge deconvolution and clustering
+TOLERANCE_PEAK_PPM=15
+TOLERANCE_PM_PPM=20
+
+# Specify fixed Da parent and fragment mass tolerances - used for de novo sequencing
+TOLERANCE_PEAK=0.0400000
+TOLERANCE_PM=0.10000000
+
+# Enables MS/MS deconvolution as described in the MetaSPS paper. Only disable if input spectra are deconvoluted or fragment masses are low accuracy
+DECONV_MS2=1
+
+# Activation method of input MS/MS spectra. It is OK to set this to CID if input spectra include both CID and HCD, but should set this to HCD if all input spectra are HCD. In the paper we mention that we got better results when CID spectra were sequenced separately from HCD.
+ACTIVATION=HCD
+
+# Set to "FT" if frgament masses are of high accuracy (0.05 Da tolerance or lower), otherwise set to "IT"
+INSTRUMENT_TYPE=FT
+
+# Set to 0 to disable clustering, but we get best results with this set to 1 (enables clustering)
+CLUSTER_MIN_SIZE=1
+
+# Set to either "PrmClust" or "MSCluster", which are two different clustering tools. It is best to use MSCluster with low-res CID, but we get better results using PrmClust for high-res CID and HCD
+CLUSTER_TOOL=PrmClust
+
+# Rasing (or lowering) remaining values will affect the quality of de novo sequencing: Higher values of MIN_RATIO and MIN_MATCHED_PEAKS and lower values of MAX_PVALUE will sacrifice sequence coverage and length for higher accuracy. If the default parameters yield low accuracy, try lowering MAX_PVALUE by increments of .005. After that, one can increase MIN_RATIO by 0.05 or 0.1, and/or increase MIN_MATCHED_PEAKS by 1 or 2
+
+# Minimum acceptable overlapping score ratio between aligned PRM spectra (float between 0 and 1)
+MIN_RATIO=0.35
+
+# Maximum acceptable alignment p-value after fitting alignment scores to a Gaussian distribution (float between 0 and 1)
+MAX_PVALUE=0.045
+
+# Minimum allowable number of matching peaks between between aligned PRM spectra (poisitive integer)
+MIN_MATCHED_PEAKS=6
+
+# Minimum allowable number of assembled contigs per meta-contigs (1 includes unmerged SPS contigs with meta-contigs for maximum coverage, 2 and higher include only meta-contigs of increasing size, which increases the average sequence length/accuracy of reported sequences with decreasing coverage).
+MIN_METACONTIG_SIZE=1
+
+#Remaining parameters should not be modified for high-res CID spectra
+
+MIN_METACONTIG_SCORE=2.8
+
+PEPNOVO_PTMS=D+1:N+1:Q-17
+
+MIN_SPECTRUM_QUALITY=0
+CORRECT_PM=no
+# Set GUESS_CHARGE=no for Orbitrap runs
+GUESS_CHARGE=no
+
+REPORT_DIR=./report
+#REPORT_SERVER=http://usa.ucsd.edu:8080/cgi-bin/
+REPORT_DYNAMIC=0
+
+GRID_NUMNODES=-1
+# GRID_NUMNODES=64
+GRID_NUMCPUS=1
+# GRID_EXE_DIR=~/svn/sps/trunk/ExecFramework
+# GRID_SGE_EXE_DIR=/opt/sge62/bin/lx24-amd64
+
+MIN_OVERLAP_AREA=0.450000
+FILTER_TRIGS=no
+MAX_MOD_MASS=100
+
+# Tag-based database search
+TAG_LEN=6
+MAX_NUM_TAGS=-1
+MAX_NUM_MODS=1
+MIN_MATCHED_PEAKS_DB=7
+MAX_PARSIMONY=1
+
+SPSPATH_MIN_NUM_PEAKS=5
+SPSPATH_MIN_NUM_SPECS=2
+SPS_MIN_EDGES_TO_COMPONENT=1
+PENALTY_PTM=-2000
+PENALTY_SAME_VERTEX=-1000000
+SPEC_TYPE_MSMS=0

@@ -1,0 +1,7 @@
+INPUT_ROOT_COMP_INFO (*.bin:*.bin)=test/component_info_cid.bin:test/component_info_hcd.bin
+INPUT_COMP_INFO (*.bin)=test/component_info_final.bin
+INPUT_CONTIGS (*.pklbin:*.pklbin)=test/sps_seqs_cid.pklbin:test/sps_seqs_hcd.pklbin
+INPUT_REVERSED_CONTIGS (*.bin)=test/reversed_sps_seqs.bin
+INPUT_SPEC_COUNT (*:*)=11010:35442
+
+OUTPUT_COMP_INFO (*.bin)=test/component_info_check.bin

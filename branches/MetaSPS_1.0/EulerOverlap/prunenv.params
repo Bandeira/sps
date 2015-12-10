@@ -1,0 +1,24 @@
+# Required input and output files
+INPUT_RAW_SPECS (*.pklbin)=
+# INPUT_RAW_SPECS (*mgf)=
+INPUT_ISOTOPIC_DISTRIBUTION (*.bin)=model_isoenv.bin
+
+# CID, HCD, or ETD
+# ACTIVATION=
+
+OUTPUT_SPECS (*.pklbin)=
+# OUTPUT_SPECS (*.mgf)=
+
+TOLERANCE_PEAK=0.05
+RESOLUTION=0.01
+
+# If peptides are known, uncomment next line and prunenv
+# will converge on the threshold +/- 0.1 with the most
+# b and y peaks matched
+# INPUT_PEPTIDES (*.txt)=
+
+# Uncomment next line to use PPM
+# TOLERANCE_PPM=30
+
+# Isotopic Envelope cut-off
+# THRESHOLD (default: 0.58)=

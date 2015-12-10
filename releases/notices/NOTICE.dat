@@ -1,0 +1,14 @@
+
+This software is Copyright © 2011 The Regents of the University of
+California. All Rights Reserved.
+
+SpecPlot uses staticly-compiled version of Gnuplot
+version 4.2.5 for Linux releases.  Gnuplot source
+code is compiled without any modification.  Please read COPYRIGHT.gnuplot
+and Gnuplot web site (http://www.gnuplot.info/) for  license and copyright
+details.
+
+Linux is the registered trademark of Linus Torvalds in the United States and
+other countries.
+
+Cygwin is a registered trademark of Red Hat, Inc.

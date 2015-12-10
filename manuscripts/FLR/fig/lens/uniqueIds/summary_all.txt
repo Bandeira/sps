@@ -1,0 +1,4598 @@
+
+
+--------------------------------------
+cc:001
+scans: (20181, 19952) with cosine score:0.95
+AGSVLVQAGPW[+16]VGYEQANCKG
+modification:16 on site: 11
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.95
+
+  peptide:     A    G    S    V    L    V    Q    A    G    P    W    V    G    Y    E    Q    A    N    C    K    G 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21 
+   groups:     1    1    1    1    1    1    1    1    1   10   10   10   10   14   14   14   14   14   14   14   14 
+  actuals:     0    0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0   80    0    0   16    1    0    0    3    0    0    0    0 
+
+
+            groups:    1   10   14 
+    is group valid:    0    1    0 
+  actuals group Qs:    0  100    0 
+estimated group Qs:    0   96    4 
+
+
+--------------------------------------
+cc:002
+scans: (16943, 20423) with cosine score:0.91
+APSWFDTGLSEM[+16]R
+modification:16 on site: 12
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     A    P    S    W    F    D    T    G    L    S    E    M    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    1    5    6    7    7    7   10   10   10   10 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    1    0    0    0    0    0    0    0   99    0 
+
+
+            groups:    1    5    6    7   10 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:    0    0    0    0  100 
+estimated group Qs:    1    0    0    0   99 
+
+
+--------------------------------------
+cc:003
+scans: (12049, 11991) with cosine score:0.76
+APSWFDTGLSEM[+16]RLEK
+modification:16 on site: 12
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     A    P    S    W    F    D    T    G    L    S    E    M    R    L    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0  100    0    0    0    0 
+estimates:     0    0    0    0    0    0    0   52    0    0    0   48    0    0    0    0 
+
+
+            groups:    1 
+    is group valid:    1 
+  actuals group Qs:  100 
+estimated group Qs:  100 
+
+
+--------------------------------------
+cc:004
+scans: (16943, 20448) with cosine score:0.90
+APSW[+16]FDTGLSEMR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     A    P    S    W    F    D    T    G    L    S    E    M    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    1    5    6    7    7    7    7    7    7    7 
+  actuals:     0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0   18   60   16    0    6    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    7 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   78   16    0    6 
+
+
+--------------------------------------
+cc:005
+scans: (9133, 7) with cosine score:0.92
+A[+43]AELPPGNYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.92
+
+  peptide:     A    A    E    L    P    P    G    N    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    5    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:006
+scans: (9098, 9924) with cosine score:1.00
+A[+43]GKPQSLNPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:1.00
+
+  peptide:     A    G    K    P    Q    S    L    N    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    4    4    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:007
+scans: (20181, 19443) with cosine score:0.80
+A[+43]GSVLVQAGPWVGYEQANCKG
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.80
+
+  peptide:     A    G    S    V    L    V    Q    A    G    P    W    V    G    Y    E    Q    A    N    C    K    G 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21 
+   groups:     1    1    1    1    1    1    7    7    7   10   10   10   13   14   14   14   14   14   14   14   14 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   89    0    0    0    0    0    0    0    0    0   11    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7   10   13   14 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   89    0   11    0    0 
+
+
+--------------------------------------
+cc:008
+scans: (22725, 6164) with cosine score:0.89
+A[+43]IHHPWIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     A    I    H    H    P    W    I    R 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    1    4    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:009
+scans: (16115, 8206) with cosine score:0.85
+A[+43]IPVSREEKPTSAPSS
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     A    I    P    V    S    R    E    E    K    P    T    S    A    P    S    S 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    3    3    3    3    3    3    3   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3   10 
+    is group valid:    1    1    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:010
+scans: (16943, 16265) with cosine score:0.12
+A[+43]PSWFDTGLSEMR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.12
+
+  peptide:     A    P    S    W    F    D    T    G    L    S    E    M    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    2    2    2    2    2    2    2    2    2    2    2    2 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:011
+scans: (2159, 4250) with cosine score:0.56
+A[+43]QTSQIQSIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.55
+
+  peptide:     A    Q    T    S    Q    I    Q    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    5    6    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   96    4    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    7 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:012
+scans: (12294, 11637) with cosine score:0.64
+A[+43]SYHALLDREESG
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.63
+
+  peptide:     A    S    Y    H    A    L    L    D    R    E    E    S    G 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    1    5    6    6    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0  100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    8 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:    0  100    0    0 
+
+
+--------------------------------------
+cc:013
+scans: (5320, 20077) with cosine score:0.98
+A[+43]VHLPSGGQYK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.98
+
+  peptide:     A    V    H    L    P    S    G    G    Q    Y    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    4    5    5    5    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:    99    0    0    1    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   99    1    0 
+
+
+--------------------------------------
+cc:014
+scans: (22953, 17147) with cosine score:0.71
+A[+43]WSGSNAYHIER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.70
+
+  peptide:     A    W    S    G    S    N    A    Y    H    I    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    3    3    3    3    3    3    3    3    3    3 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:015
+scans: (19545, 321) with cosine score:0.91
+DAPSLW[+16]VYGFSDR
+modification:16 on site: 6
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.90
+
+  peptide:     D    A    P    S    L    W    V    Y    G    F    S    D    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    3    3    3    3    3    8    8    8   11   11   11 
+  actuals:     0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0   90    3    0    7    0    0    0    0 
+
+
+            groups:    1    3    8   11 
+    is group valid:    0    1    0    0 
+  actuals group Qs:    0  100    0    0 
+estimated group Qs:    0   93    7    0 
+
+
+--------------------------------------
+cc:016
+scans: (19114, 23158) with cosine score:0.79
+DKQW[+16]HLEGSFPVLATEPPK
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.77
+
+  peptide:     D    K    Q    W    H    L    E    G    S    F    P    V    L    A    T    E    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    7    7    7    7    7    7    7    7    7    7   17   17   17 
+  actuals:     0    0    0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7   17 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:017
+scans: (6116, 14751) with cosine score:0.86
+DMQW[+16]HQR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     D    M    Q    W    H    Q    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    5    5    5 
+  actuals:     0    0    0  100    0    0    0 
+estimates:     7   20    0   67    7    0    0 
+
+
+            groups:    1    2    3    4    5 
+    is group valid:    0    1    0    1    0 
+  actuals group Qs:    0    0    0  100    0 
+estimated group Qs:    7   20    0   67    7 
+
+
+--------------------------------------
+cc:018
+scans: (6116, 22556) with cosine score:0.98
+DM[+16]QWHQR
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.98
+
+  peptide:     D    M    Q    W    H    Q    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    1    1    4    5    5    5 
+  actuals:     0  100    0    0    0    0    0 
+estimates:     2   98    0    0    0    0    0 
+
+
+            groups:    1    4    5 
+    is group valid:    1    1    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:019
+scans: (7650, 16329) with cosine score:0.95
+DTGLSEM[+16]R
+modification:16 on site: 7
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.95
+
+  peptide:     D    T    G    L    S    E    M    R 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    3    3    5    6    6    6 
+  actuals:     0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0  100    0 
+
+
+            groups:    1    3    5    6 
+    is group valid:    0    0    0    1 
+  actuals group Qs:    0    0    0  100 
+estimated group Qs:    0    0    0  100 
+
+
+--------------------------------------
+cc:020
+scans: (8444, 393) with cosine score:0.65
+DVTIQHPW[+16]FK
+modification:16 on site: 8
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     D    V    T    I    Q    H    P    W    F    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    6    6    6    6    6 
+  actuals:     0    0    0    0    0    0    0  100    0    0 
+estimates:     0    0    0    0    0   67    0   33    0    0 
+
+
+            groups:    1    4    5    6 
+    is group valid:    0    0    0    1 
+  actuals group Qs:    0    0    0  100 
+estimated group Qs:    0    0    0  100 
+
+
+--------------------------------------
+cc:021
+scans: (19545, 120) with cosine score:0.42
+D[+43]APSLWVYGFSDR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.42
+
+  peptide:     D    A    P    S    L    W    V    Y    G    F    S    D    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    1    1    1    7    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7    8 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:022
+scans: (17610, 2231) with cosine score:0.87
+D[+43]FVEIHGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     D    F    V    E    I    H    G    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    2    3    4    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:    76    0   24    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    5 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   76    0   24    0    0 
+
+
+--------------------------------------
+cc:023
+scans: (22196, 5438) with cosine score:0.96
+D[+43]IAIHHPWIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     D    I    A    I    H    H    P    W    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    5    6    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   58   12   31    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    7 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:024
+scans: (15751, 8104) with cosine score:0.84
+D[+43]KFVIFLDVK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     D    K    F    V    I    F    L    D    V    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    3    4    5    6    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:025
+scans: (5232, 17018) with cosine score:0.66
+D[+43]KQWHLEGSFPVLA
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.68
+
+  peptide:     D    K    Q    W    H    L    E    G    S    F    P    V    L    A 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    1    1    1    1    1    8    8    8   11   11   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   69    0    0    0    0    0    0    0    0    0    0    0   31 
+
+
+            groups:    1    8   11 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   69    0   31 
+
+
+--------------------------------------
+cc:026
+scans: (19114, 17763) with cosine score:0.77
+D[+43]KQWHLEGSFPVLATEPPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     D    K    Q    W    H    L    E    G    S    F    P    V    L    A    T    E    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    8    8    8    8    8    8    8    8    8   17   17   17 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8   17 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:027
+scans: (6116, 20913) with cosine score:0.90
+D[+43]MQWHQR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.90
+
+  peptide:     D    M    Q    W    H    Q    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    2    4    5    6    6 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    2    4    5    6 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:028
+scans: (18343, 9702) with cosine score:0.96
+D[+43]RFSVNLDVK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     D    R    F    S    V    N    L    D    V    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    1    1    1    8    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:    69    0    0    0    0    0    0   26    0    6 
+
+
+            groups:    1    8    9 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   69   26    6 
+
+
+--------------------------------------
+cc:029
+scans: (16129, 19905) with cosine score:0.84
+D[+43]SSDFGAPHPQVQSVR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     D    S    S    D    F    G    A    P    H    P    Q    V    Q    S    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    2    2    2    5    5    5    8    8   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    5    8   10 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:030
+scans: (3272, 1706) with cosine score:0.83
+D[+43]VIEVHGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     D    V    I    E    V    H    G    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    2    3    4    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    5 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:031
+scans: (8444, 20408) with cosine score:0.83
+D[+43]VTIQHPWFK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     D    V    T    I    Q    H    P    W    F    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    2    2    4    5    5    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    4    5    7 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:032
+scans: (18459, 12289) with cosine score:0.93
+EW[+16]GSHAPTFQVQSIR
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     E    W    G    S    H    A    P    T    F    Q    V    Q    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    7    7    7    7    7    7    7    7    7 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:033
+scans: (23101, 18374) with cosine score:0.89
+EW[+16]GSHAQTSQIQSIR
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     E    W    G    S    H    A    Q    T    S    Q    I    Q    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    7    8    9    9    9    9    9    9    9 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7    8    9 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:034
+scans: (21254, 20166) with cosine score:0.85
+E[+43]ADEALLHNLR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     E    A    D    E    A    L    L    H    N    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    1    1    6    7    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7    8 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:035
+scans: (3486, 16403) with cosine score:0.97
+E[+43]EKPAVTAAPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     E    E    K    P    A    V    T    A    A    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    4    4    4    4    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    8 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:036
+scans: (13570, 20303) with cosine score:0.86
+E[+43]QYEHADEASR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.85
+
+  peptide:     E    Q    Y    E    H    A    D    E    A    S    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    1    5    5    7    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:    32   47   21    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    7 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:037
+scans: (18459, 20407) with cosine score:0.97
+E[+43]WGSHAPTFQVQSIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     E    W    G    S    H    A    P    T    F    Q    V    Q    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    7    7    7    7    7    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:038
+scans: (23101, 16833) with cosine score:0.80
+E[+43]WGSHAQTSQIQSIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     E    W    G    S    H    A    Q    T    S    Q    I    Q    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    7    8    8    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    67    0    5    0   28    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7    8 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:039
+scans: (17278, 17506) with cosine score:0.98
+FAGYM[+16]YILPQGEYPEYQR
+modification:16 on site: 5
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.98
+
+  peptide:     F    A    G    Y    M    Y    I    L    P    Q    G    E    Y    P    E    Y    Q    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    1    8    9    9    9    9    9   14   14   14   14   14 
+  actuals:     0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   14 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:040
+scans: (17278, 128) with cosine score:0.56
+F[+43]AGYMYILPQGEYPEYQR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.56
+
+  peptide:     F    A    G    Y    M    Y    I    L    P    Q    G    E    Y    P    E    Y    Q    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    5    5    5    8    9    9    9    9    9   14   14   14   14   14 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    8    9   14 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:041
+scans: (18885, 2945) with cosine score:0.92
+F[+43]HLSEIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     F    H    L    S    E    I    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    4    6    6 
+  actuals:   100    0    0    0    0    0    0 
+estimates:    87    0   13    0    0    0    0 
+
+
+            groups:    1    2    3    4    6 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   87    0   13    0    0 
+
+
+--------------------------------------
+cc:042
+scans: (6649, 17150) with cosine score:0.88
+F[+43]HTYLSR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     F    H    T    Y    L    S    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:043
+scans: (15284, 11471) with cosine score:0.48
+F[+43]SVNLDVKHFSPEELK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.43
+
+  peptide:     F    S    V    N    L    D    V    K    H    F    S    P    E    E    L    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    1    9    9    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0  100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    9 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:044
+scans: (12156, 2630) with cosine score:0.90
+F[+43]VEIHGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     F    V    E    I    H    G    K 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    4    6    7 
+  actuals:   100    0    0    0    0    0    0 
+estimates:    96    0    4    0    0    0    0 
+
+
+            groups:    1    2    3    4    6    7 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   96    0    4    0    0    0 
+
+
+--------------------------------------
+cc:045
+scans: (6044, 17801) with cosine score:0.96
+F[+43]YLRPPSFLR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.95
+
+  peptide:     F    Y    L    R    P    P    S    F    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    5    5    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:    90    0    8    0    0    0    0    0    0    2 
+
+
+            groups:    1    5 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:   98    2 
+
+
+--------------------------------------
+cc:046
+scans: (17714, 17680) with cosine score:0.48
+GDYADHQQWM[+16]GLSDSVR
+modification:16 on site: 10
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.49
+
+  peptide:     G    D    Y    A    D    H    Q    Q    W    M    G    L    S    D    S    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    3    3    3    3    3    3    3    3    3    3    3    3   15   15   15 
+  actuals:     0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0   77   23    0    0    0    0    0    0 
+
+
+            groups:    1    3   15 
+    is group valid:    0    1    0 
+  actuals group Qs:    0  100    0 
+estimated group Qs:    0  100    0 
+
+
+--------------------------------------
+cc:047
+scans: (17714, 21753) with cosine score:0.67
+GDYADHQQW[+16]MGLSDSVR
+modification:16 on site: 9
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.62
+
+  peptide:     G    D    Y    A    D    H    Q    Q    W    M    G    L    S    D    S    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    1    1    1    1    1    1   10   10   10   10   10   10   10   10 
+  actuals:     0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0   60   35    6    0    0    0    0    0    0 
+
+
+            groups:    1   10 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:   60   40 
+
+
+--------------------------------------
+cc:048
+scans: (17455, 17131) with cosine score:0.93
+GEM[+16]FILEK
+modification:16 on site: 3
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     G    E    M    F    I    L    E    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    3    4    5    6    6    6 
+  actuals:     0    0  100    0    0    0    0    0 
+estimates:     0    0  100    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6 
+    is group valid:    0    1    0    0    0 
+  actuals group Qs:    0  100    0    0    0 
+estimated group Qs:    0  100    0    0    0 
+
+
+--------------------------------------
+cc:049
+scans: (17288, 16668) with cosine score:0.40
+GEYPDYQQWM[+16]GLSDSIR
+modification:16 on site: 10
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.00
+
+  peptide:     G    E    Y    P    D    Y    Q    Q    W    M    G    L    S    D    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1 
+  actuals:     0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:   NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN  NaN 
+
+
+            groups:    1 
+    is group valid:    1 
+  actuals group Qs:  100 
+estimated group Qs:  NaN 
+
+
+--------------------------------------
+cc:050
+scans: (17218, 20717) with cosine score:0.80
+GEYPSWDAW[+16]GGNTAYPAER
+modification:16 on site: 9
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     G    E    Y    P    S    W    D    A    W    G    G    N    T    A    Y    P    A    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    1    1   10   11   11   11   11   15   16   16   16   16 
+  actuals:     0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0    0 
+estimates:    14    0    0    0    0    0    0    5   81    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   10   11   15   16 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:051
+scans: (17218, 20420) with cosine score:0.78
+GEYPSW[+16]DAWGGNTAYPAER
+modification:16 on site: 6
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.80
+
+  peptide:     G    E    Y    P    S    W    D    A    W    G    G    N    T    A    Y    P    A    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    4    4    4    4    4    4    4   11   11   11   11   15   16   16   16   16 
+  actuals:     0    0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0   20    0   43    0   37    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4   11   15   16 
+    is group valid:    0    1    0    0    0 
+  actuals group Qs:    0  100    0    0    0 
+estimated group Qs:    0  100    0    0    0 
+
+
+--------------------------------------
+cc:052
+scans: (16094, 20255) with cosine score:0.81
+GNTIEIQGDDAPSLW[+16]VYGFSDR
+modification:16 on site: 15
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.81
+
+  peptide:     G    N    T    I    E    I    Q    G    D    D    A    P    S    L    W    V    Y    G    F    S    D    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22 
+   groups:     1    1    1    1    1    1    1    1    1    1    1   12   12   12   15   15   15   15   15   15   15   15 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0    0    0    0    0    0   85   15    0    0    0    0    0    0 
+
+
+            groups:    1   12   15 
+    is group valid:    0    0    1 
+  actuals group Qs:    0    0  100 
+estimated group Qs:    0    0  100 
+
+
+--------------------------------------
+cc:053
+scans: (8488, 20209) with cosine score:0.92
+GYFVQPTVFSNVTDEM[+16]R
+modification:16 on site: 16
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     G    Y    F    V    Q    P    T    V    F    S    N    V    T    D    E    M    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    1    5    6    6    6    9   10   10   10   10   10   10   10   10 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0    0    0    3    0    0    0    0    0    0   97    0 
+
+
+            groups:    1    5    6    9   10 
+    is group valid:    0    0    0    0    1 
+  actuals group Qs:    0    0    0    0  100 
+estimated group Qs:    0    0    0    3   97 
+
+
+--------------------------------------
+cc:054
+scans: (19672, 19376) with cosine score:0.90
+G[+43]APPAGTSPSPGTTLAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     G    A    P    P    A    G    T    S    P    S    P    G    T    T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26 
+   groups:     1    1    3    3    3    3    3    3    3    3    3    3    3    3    3    3   17   17   17   17   21   21   21   21   21   21 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3   17   21 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:055
+scans: (3311, 470) with cosine score:0.68
+G[+43]DYKDSSDFGAPHPQVQ
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.66
+
+  peptide:     G    D    Y    K    D    S    S    D    F    G    A    P    H    P    Q    V    Q 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    1    1    6    6    6    6    6    6    6    6   14   14   14   14 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6   14 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:056
+scans: (15510, 20968) with cosine score:0.86
+G[+43]DYKDSSDFGAPHPQVQSVR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     G    D    Y    K    D    S    S    D    F    G    A    P    H    P    Q    V    Q    S    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20 
+   groups:     1    1    1    1    1    1    1    1    9    9    9   12   12   14   14   14   14   14   14   14 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   41   59    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    9   12   14 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:057
+scans: (17455, 7421) with cosine score:0.79
+G[+43]EMFILEK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     G    E    M    F    I    L    E    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    3    4    4    6    7    8 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:    77    0   23    0    0    0    0    0 
+
+
+            groups:    1    3    4    6    7    8 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   77   23    0    0    0    0 
+
+
+--------------------------------------
+cc:058
+scans: (13107, 20441) with cosine score:0.79
+G[+43]EMFILEKGEYPR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.80
+
+  peptide:     G    E    M    F    I    L    E    K    G    E    Y    P    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    4    5    6    7    8    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    7    8    9 
+    is group valid:    1    0    0    0    0    1    0 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0    0 
+
+
+--------------------------------------
+cc:059
+scans: (21746, 20391) with cosine score:0.86
+G[+43]EQFVFEKGEYPR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.73
+
+  peptide:     G    E    Q    F    V    F    E    K    G    E    Y    P    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    4    5    6    6    8    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    98    0    0    0    2    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    8    9 
+    is group valid:    1    0    0    0    1    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   98    0    2    0    0    0 
+
+
+--------------------------------------
+cc:060
+scans: (17288, 16205) with cosine score:0.90
+G[+43]EYPDYQQWMGLSDSIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     G    E    Y    P    D    Y    Q    Q    W    M    G    L    S    D    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    4    4    4    4    4    4    4    4    4    4    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:061
+scans: (17218, 7226) with cosine score:0.56
+G[+43]EYPSWDAWGGNTAYPAER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.55
+
+  peptide:     G    E    Y    P    S    W    D    A    W    G    G    N    T    A    Y    P    A    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    3    3    3    3    3    3    3   10   10   10   10   10   10   16   16   16   16 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3   10   16 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:062
+scans: (17140, 19592) with cosine score:0.81
+G[+43]KGAPPAGTSPSPGTTLAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.79
+
+  peptide:     G    K    G    A    P    P    A    G    T    S    P    S    P    G    T    T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28 
+   groups:     1    1    1    1    5    5    5    5    5    5    5    5    5    5    5    5    5    5   19   19   19   19   23   23   23   23   23   23 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   98    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2 
+
+
+            groups:    1    5   19   23 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   98    0    0    2 
+
+
+--------------------------------------
+cc:063
+scans: (10597, 7368) with cosine score:0.87
+G[+43]LQYLLEK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     G    L    Q    Y    L    L    E    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    3    4    4    6    7    8 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:    93    0    7    0    0    0    0    0 
+
+
+            groups:    1    3    4    6    7    8 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   93    7    0    0    0    0 
+
+
+--------------------------------------
+cc:064
+scans: (16094, 7323) with cosine score:0.74
+G[+43]NTIEIQGDDAPSLWVYGFSDR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     G    N    T    I    E    I    Q    G    D    D    A    P    S    L    W    V    Y    G    F    S    D    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22 
+   groups:     1    1    1    1    1    1    1    1    1    1    1   12   12   12   15   16   16   16   16   16   16   16 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   12   15   16 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:065
+scans: (16437, 19731) with cosine score:0.37
+G[+43]TTLAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.37
+
+  peptide:     G    T    T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    3    3    5    6    6    6    6    6    6    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    5    6 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:066
+scans: (16947, 19450) with cosine score:0.86
+G[+43]YQYLLEPGDFR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.86
+
+  peptide:     G    Y    Q    Y    L    L    E    P    G    D    F    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    1    1    6    7    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7    8 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:067
+scans: (15911, 7137) with cosine score:0.72
+HWHDM[+16]ELQNLGAVVGR
+modification:16 on site: 5
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.64
+
+  peptide:     H    W    H    D    M    E    L    Q    N    L    G    A    V    V    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1 
+  actuals:     0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0   19   81    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1 
+    is group valid:    1 
+  actuals group Qs:  100 
+estimated group Qs:  100 
+
+
+--------------------------------------
+cc:068
+scans: (23525, 19313) with cosine score:0.93
+HWNEWGAFQPQM[+16]QSLR
+modification:16 on site: 12
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.92
+
+  peptide:     H    W    N    E    W    G    A    F    Q    P    Q    M    Q    S    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    1    1   10   10   10   10   10   10   10 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0  100    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0    0    0  100    0    0    0    0 
+
+
+            groups:    1   10 
+    is group valid:    1    1 
+  actuals group Qs:    0  100 
+estimated group Qs:    0  100 
+
+
+--------------------------------------
+cc:069
+scans: (23525, 14120) with cosine score:0.85
+HWNEW[+16]GAFQPQMQSLR
+modification:16 on site: 5
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     H    W    N    E    W    G    A    F    Q    P    Q    M    Q    S    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    8    8   10   10   10   10   10   10   10 
+  actuals:     0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0   40   40    0    0    0    0   20    0    0    0    0    0 
+
+
+            groups:    1    8   10 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   80    0   20 
+
+
+--------------------------------------
+cc:070
+scans: (23525, 14123) with cosine score:0.82
+HW[+16]NEWGAFQPQMQSLR
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.81
+
+  peptide:     H    W    N    E    W    G    A    F    Q    P    Q    M    Q    S    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    6    6    8    8   10   10   10   10   10   10   10 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   80    0   20    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    8   10 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:071
+scans: (17888, 1851) with cosine score:0.78
+H[+43]FSPEDLTVK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.78
+
+  peptide:     H    F    S    P    E    D    L    T    V    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    2    3    4    4    4    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:072
+scans: (21930, 16813) with cosine score:0.75
+H[+43]FSPEELK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.75
+
+  peptide:     H    F    S    P    E    E    L    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    2    3    4    4    4    7    7 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    7 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:073
+scans: (11948, 19233) with cosine score:0.72
+H[+43]LEGSFPVLATEPPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.70
+
+  peptide:     H    L    E    G    S    F    P    V    L    A    T    E    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    7    7    7    7    7    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:074
+scans: (23525, 21118) with cosine score:0.93
+H[+43]WNEWGAFQPQMQSLR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     H    W    N    E    W    G    A    F    Q    P    Q    M    Q    S    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    5    5    5    8    8   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    56    0   44    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    8   10 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:075
+scans: (21366, 21292) with cosine score:0.89
+IAKEEIFGPVQQIM[+16]K
+modification:16 on site: 14
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     I    A    K    E    E    I    F    G    P    V    Q    Q    I    M    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    7    8    9    9    9    9    9    9    9 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0    0    0    0    0    0    0    0    0  100 
+
+
+            groups:    1    7    8    9 
+    is group valid:    0    0    0    1 
+  actuals group Qs:    0    0    0  100 
+estimated group Qs:    0    0    0  100 
+
+
+--------------------------------------
+cc:076
+scans: (15789, 7071) with cosine score:0.64
+IRDM[+16]QWHQR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.61
+
+  peptide:     I    R    D    M    Q    W    H    Q    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    4    4    4    4    4    4 
+  actuals:     0    0    0  100    0    0    0    0    0 
+estimates:     9    0    0   91    0    0    0    0    0 
+
+
+            groups:    1    4 
+    is group valid:    0    1 
+  actuals group Qs:    0  100 
+estimated group Qs:    9   91 
+
+
+--------------------------------------
+cc:077
+scans: (15824, 5440) with cosine score:0.49
+I[+43]AIHHPWIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.49
+
+  peptide:     I    A    I    H    H    P    W    I    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    4    5    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    93    0    0    7    0    0    0    0    0 
+
+
+            groups:    1    4    5    6 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   93    7    0    0 
+
+
+--------------------------------------
+cc:078
+scans: (21366, 20007) with cosine score:0.84
+I[+43]AKEEIFGPVQQIMK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.85
+
+  peptide:     I    A    K    E    E    I    F    G    P    V    Q    Q    I    M    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    7    8    8    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0   80    0    0    0   16    3    0    0    0    0    0    0    0 
+
+
+            groups:    1    7    8 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   80   16    3 
+
+
+--------------------------------------
+cc:079
+scans: (16639, 19503) with cosine score:0.73
+I[+43]ILYENPNFTGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     I    I    L    Y    E    N    P    N    F    T    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    3    4    5    6    7    7    7   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6    7   10 
+    is group valid:    1    0    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0    0 
+
+
+--------------------------------------
+cc:080
+scans: (21268, 20429) with cosine score:0.77
+I[+43]ILYENPNFTGKK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.77
+
+  peptide:     I    I    L    Y    E    N    P    N    F    T    G    K    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    3    4    5    6    6    6    6    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    99    0    1    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   99    1    0    0    0 
+
+
+--------------------------------------
+cc:081
+scans: (21664, 9976) with cosine score:0.84
+I[+43]LEKGEYPR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     I    L    E    K    G    E    Y    P    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    4    5    5    5    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    20    0   15   63    2    0    0    0    0 
+
+
+            groups:    1    3    4    5    8 
+    is group valid:    1    0    1    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   20   15   63    2    0 
+
+
+--------------------------------------
+cc:082
+scans: (20821, 7632) with cosine score:0.70
+I[+43]PADVDPLTITSSLSSDGVLTVNGPRK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.68
+
+  peptide:     I    P    A    D    V    D    P    L    T    I    T    S    S    L    S    S    D    G    V    L    T    V    N    G    P    R    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1   18   18   18   18   18   18   18   18   18   18 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   18 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:083
+scans: (13733, 10409) with cosine score:0.71
+I[+43]QHPWFK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     I    Q    H    P    W    F    K 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:084
+scans: (12128, 16562) with cosine score:0.93
+I[+43]QTGLDATHAER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.76
+
+  peptide:     I    Q    T    G    L    D    A    T    H    A    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    3    4    4    6    7    8    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    6    7    8    9 
+    is group valid:    1    0    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0    0 
+
+
+--------------------------------------
+cc:085
+scans: (16676, 7382) with cosine score:0.71
+I[+43]SLFEGANFK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.71
+
+  peptide:     I    S    L    F    E    G    A    N    F    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    6    7    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    7    8 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:086
+scans: (21994, 16889) with cosine score:0.88
+I[+43]TFYEDKNFQGR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     I    T    F    Y    E    D    K    N    F    Q    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    5    5    7    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    98    0    0    0    2    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    7    8 
+    is group valid:    1    0    0    1    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   98    0    2    0    0 
+
+
+--------------------------------------
+cc:087
+scans: (16610, 7284) with cosine score:0.71
+I[+43]TIYDQENFQGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.71
+
+  peptide:     I    T    I    Y    D    Q    E    N    F    Q    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    5    5    5    8    9   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    8    9   10 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:088
+scans: (21498, 16874) with cosine score:0.80
+I[+43]TIYDQENFQGKR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.78
+
+  peptide:     I    T    I    Y    D    Q    E    N    F    Q    G    K    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    1    1    1    1    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:089
+scans: (14234, 17136) with cosine score:0.90
+I[+43]YDRDELR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.90
+
+  peptide:     I    Y    D    R    D    E    L    R 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    1    1    5    6    7    7 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:    79   18    0    0    0    0    0    2 
+
+
+            groups:    1    5    6    7 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   98    0    0    2 
+
+
+--------------------------------------
+cc:090
+scans: (23443, 23481) with cosine score:0.87
+KM[+16]EIIDDDVPSFHAHGYQEK
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     K    M    E    I    I    D    D    D    V    P    S    F    H    A    H    G    Y    Q    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20 
+   groups:     1    1    1    1    1    1    1    1    9   10   10   10   10   10   10   10   10   10   10   10 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    49    0    0   26    0   25    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    9   10 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:091
+scans: (18264, 18180) with cosine score:0.82
+KPIDW[+16]GAASPAVQSFR
+modification:16 on site: 5
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.81
+
+  peptide:     K    P    I    D    W    G    A    A    S    P    A    V    Q    S    F    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    4    5    5    5    8    9   10   10   10   10   10   15   15 
+  actuals:     0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    4   74    8    0   11    3    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    8    9   10   15 
+    is group valid:    0    0    1    0    0    0    0 
+  actuals group Qs:    0    0  100    0    0    0    0 
+estimated group Qs:    0    4   82   11    3    0    0 
+
+
+--------------------------------------
+cc:092
+scans: (4935, 20074) with cosine score:0.96
+K[+43]AAELPPGNYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     K    A    A    E    L    P    P    G    N    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    2    2    2    2    6    6    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:    99    0    0    0    0    0    0    0    1    0    0 
+
+
+            groups:    1    2    6 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   99    0    1 
+
+
+--------------------------------------
+cc:093
+scans: (15621, 17833) with cosine score:0.68
+K[+43]EQYEHADEASR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.65
+
+  peptide:     K    E    Q    Y    E    H    A    D    E    A    S    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    1    1    6    6    6    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    76   17    0    0    0    7    0    0    0    0    0    0 
+
+
+            groups:    1    6    9 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   93    7    0 
+
+
+--------------------------------------
+cc:094
+scans: (6548, 11235) with cosine score:0.76
+K[+43]MEIIDDDVPSFHAH
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.75
+
+  peptide:     K    M    E    I    I    D    D    D    V    P    S    F    H    A    H 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    1    9   10   10   10   13   13   13 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    9   10   13 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:095
+scans: (23443, 22415) with cosine score:0.79
+K[+43]MEIIDDDVPSFHAHGYQEK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.78
+
+  peptide:     K    M    E    I    I    D    D    D    V    P    S    F    H    A    H    G    Y    Q    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20 
+   groups:     1    1    1    1    1    1    1    1    1   10   10   10   10   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    2    0   98    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   10 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:096
+scans: (18264, 16671) with cosine score:0.83
+K[+43]PIDWGAASPAVQSFR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     K    P    I    D    W    G    A    A    S    P    A    V    Q    S    F    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    5    6    6    8    8   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    8   10 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:097
+scans: (20168, 19790) with cosine score:0.43
+LLLATMESM[+16]NGGK
+modification:16 on site: 9
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.39
+
+  peptide:     L    L    L    A    T    M    E    S    M    N    G    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    3    4    5    5    5    5    5    5    5    5    5 
+  actuals:     0    0    0    0    0    0    0    0  100    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0  100    0    0    0    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    0    0    0    1 
+  actuals group Qs:    0    0    0  100 
+estimated group Qs:    0    0    0  100 
+
+
+--------------------------------------
+cc:098
+scans: (20168, 19662) with cosine score:0.43
+LLLATM[+16]ESMNGGK
+modification:16 on site: 6
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.36
+
+  peptide:     L    L    L    A    T    M    E    S    M    N    G    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    3    4    5    5    5    5    5    5    5    5    5 
+  actuals:     0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:    20    0    0    0   80    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    0    0    0    1 
+  actuals group Qs:    0    0    0  100 
+estimated group Qs:   20    0    0   80 
+
+
+--------------------------------------
+cc:099
+scans: (19961, 19679) with cosine score:0.72
+LM[+16]LQTETIQAGADDFK
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.80
+
+  peptide:     L    M    L    Q    T    E    T    I    Q    A    G    A    D    D    F    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    8    9   10   10   10   10   10   10   10 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   10 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:100
+scans: (21027, 3137) with cosine score:0.62
+LM[+16]LQTETIQAGADDFKER
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.61
+
+  peptide:     L    M    L    Q    T    E    T    I    Q    A    G    A    D    D    F    K    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    1    1    1   10   11   11   11   11   11   11   11   11 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    15    0    0   85    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   10   11 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:101
+scans: (18114, 18108) with cosine score:0.93
+LM[+16]SFRPIK
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     L    M    S    F    R    P    I    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    2    3    3    3    3    7    8 
+  actuals:     0  100    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    7    8 
+    is group valid:    0    1    0    0    0 
+  actuals group Qs:    0  100    0    0    0 
+estimated group Qs:    0  100    0    0    0 
+
+
+--------------------------------------
+cc:102
+scans: (18520, 19993) with cosine score:0.77
+L[+43]GEHNIDVLEGNEQFINAAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.78
+
+  peptide:     L    G    E    H    N    I    D    V    L    E    G    N    E    Q    F    I    N    A    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20 
+   groups:     1    1    1    1    1    1    1    1    9    9   11   11   11   11   11   11   11   11   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    9   11 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:103
+scans: (20168, 19388) with cosine score:0.40
+L[+43]LLATMESMNGGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.40
+
+  peptide:     L    L    L    A    T    M    E    S    M    N    G    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    1    4    4    4    7    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    7    8 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:104
+scans: (21027, 19994) with cosine score:0.83
+L[+43]MLQTETIQAGADDFKER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     L    M    L    Q    T    E    T    I    Q    A    G    A    D    D    F    K    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    1    1    1   10   10   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   10 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:105
+scans: (18114, 20427) with cosine score:0.90
+L[+43]MSFRPIK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     L    M    S    F    R    P    I    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    2    3    4    4    6    6    8 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    6    8 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:106
+scans: (7108, 15255) with cosine score:0.64
+L[+43]MSFRPIKMDAQEHK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     L    M    S    F    R    P    I    K    M    D    A    Q    E    H    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    1    1    1   11   11   11   11   15 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     6    0    0    0    0    0    0   31    0    0    0    0    0    0   63 
+
+
+            groups:    1   11   15 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   37    0   63 
+
+
+--------------------------------------
+cc:107
+scans: (5510, 10136) with cosine score:0.91
+L[+43]RPPSFLR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     L    R    P    P    S    F    L    R 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    3    3    3    3    3    8 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    8 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:108
+scans: (17404, 7290) with cosine score:0.65
+L[+43]SSTISPYYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.63
+
+  peptide:     L    S    S    T    I    S    P    Y    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    5    6    7    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    7    8 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:109
+scans: (20457, 7451) with cosine score:0.68
+L[+43]TIFEQENFLGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.68
+
+  peptide:     L    T    I    F    E    Q    E    N    F    L    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    5    6    6    6    6   10   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6   10   11 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:110
+scans: (11992, 8538) with cosine score:0.75
+L[+43]TIFEQENFLGKK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     L    T    I    F    E    Q    E    N    F    L    G    K    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    2    2    4    5    6    7    7    7    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    4    5    6    7 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:111
+scans: (22188, 19461) with cosine score:0.66
+L[+43]VVFELENFQGR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.66
+
+  peptide:     L    V    V    F    E    L    E    N    F    Q    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    4    6    6    8    8   10   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    54    0   46    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    6    8   10   11 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:112
+scans: (20109, 8788) with cosine score:0.92
+MAQTNPTPGSLGPW[+16]K
+modification:16 on site: 14
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     M    A    Q    T    N    P    T    P    G    S    L    G    P    W    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    6    6    6    6    6    6    6    6    6 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0    0    0    0  100    0    0    0    0    0 
+
+
+            groups:    1    6 
+    is group valid:    1    1 
+  actuals group Qs:    0  100 
+estimated group Qs:    0  100 
+
+
+--------------------------------------
+cc:113
+scans: (20109, 20104) with cosine score:0.96
+M[+16]AQTNPTPGSLGPWK
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     M    A    Q    T    N    P    T    P    G    S    L    G    P    W    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    6    8    9    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    86   14    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    8    9 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:114
+scans: (11505, 11089) with cosine score:0.80
+M[+16]DLESQIESLKEELGSLSR
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.80
+
+  peptide:     M    D    L    E    S    Q    I    E    S    L    K    E    E    L    G    S    L    S    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1 
+    is group valid:    1 
+  actuals group Qs:  100 
+estimated group Qs:  100 
+
+
+--------------------------------------
+cc:115
+scans: (18701, 5715) with cosine score:0.93
+M[+16]EIIDDDVPSFHAHGYQEK
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     M    E    I    I    D    D    D    V    P    S    F    H    A    H    G    Y    Q    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    8    9    9    9    9   13   13   13   13   13   13   13 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   13 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:116
+scans: (21950, 13626) with cosine score:0.49
+M[+16]SFRPIK
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.79
+
+  peptide:     M    S    F    R    P    I    K 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    2    2    5    5    7 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    2    5    7 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:117
+scans: (22682, 22039) with cosine score:0.77
+M[+16]TIFEKENFIGR
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.75
+
+  peptide:     M    T    I    F    E    K    E    N    F    I    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    4    4    4    4    4   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    91    0    0    0    0    9    0    0    0    0    0    0 
+
+
+            groups:    1    4   10 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   91    9    0 
+
+
+--------------------------------------
+cc:118
+scans: (8874, 20382) with cosine score:0.82
+M[+16]VVWDEDGFQGR
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.83
+
+  peptide:     M    V    V    W    D    E    D    G    F    Q    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    3    4    5    5    5    5    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    75    0   21    4    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    1    0    1    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   75   21    4    0 
+
+
+--------------------------------------
+cc:119
+scans: (20396, 8325) with cosine score:0.84
+M[+16]YILPQGEYPEYQR
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     M    Y    I    L    P    Q    G    E    Y    P    E    Y    Q    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    1    4    5    5    5    5    9   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    9   10 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:120
+scans: (18701, 11449) with cosine score:0.89
+M[+43]EIIDDDVPSFHAHGYQEK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     M    E    I    I    D    D    D    V    P    S    F    H    A    H    G    Y    Q    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    8    9    9    9    9   13   13   13   13   13   13   13 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    85    0    0   15    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   13 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:121
+scans: (22682, 20767) with cosine score:0.87
+M[+43]TIFEKENFIGR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.86
+
+  peptide:     M    T    I    F    E    K    E    N    F    I    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    5    6    7    7    7   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    94    0    0    0    6    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    7   10 
+    is group valid:    1    0    0    1    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   94    0    6    0    0    0 
+
+
+--------------------------------------
+cc:122
+scans: (8874, 19439) with cosine score:0.71
+M[+43]VVWDEDGFQGR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.71
+
+  peptide:     M    V    V    W    D    E    D    G    F    Q    G    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    5    5    5    5    5   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5   10 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:123
+scans: (760, 715) with cosine score:0.90
+PNFAGYM[+16]YILPQGEYPEYQR
+modification:16 on site: 7
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.90
+
+  peptide:     P    N    F    A    G    Y    M    Y    I    L    P    Q    G    E    Y    P    E    Y    Q    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20 
+   groups:     1    1    1    1    1    1    1    1    1   10   11   12   12   12   12   12   12   12   12   12 
+  actuals:     0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0   62   38    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   10   11   12 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:124
+scans: (19666, 19381) with cosine score:0.90
+P[+43]AGTSPSPGTTLAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     P    A    G    T    S    P    S    P    G    T    T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23 
+   groups:     1    1    3    3    3    3    3    3    3    3    3    3   13   14   14   14   14   18   18   18   18   18   18 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    35    0    0   65    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3   13   14   18 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   35   65    0    0    0 
+
+
+--------------------------------------
+cc:125
+scans: (16440, 7280) with cosine score:0.77
+P[+43]GTTLAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.76
+
+  peptide:     P    G    T    T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    6    7    7    7    7    7    7    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:126
+scans: (21643, 815) with cosine score:0.50
+QWEISDDYPSLQAMGWFNNEVGSM[+16]K
+modification:16 on site: 24
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.51
+
+  peptide:     Q    W    E    I    S    D    D    Y    P    S    L    Q    A    M    G    W    F    N    N    E    V    G    S    M    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25 
+   groups:     1    1    1    1    1    1    1    1    9    9    9   12   12   12   12   12   12   12   12   12   12   12   12   12   12 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0    0   51    0    0    0    0    0    0    0    0    0    0    0    0   50    0    0    0    0 
+
+
+            groups:    1    9   12 
+    is group valid:    1    0    1 
+  actuals group Qs:    0    0  100 
+estimated group Qs:   51    0   50 
+
+
+--------------------------------------
+cc:127
+scans: (21643, 20532) with cosine score:0.89
+QWEISDDYPSLQAM[+16]GWFNNEVGSMK
+modification:16 on site: 14
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     Q    W    E    I    S    D    D    Y    P    S    L    Q    A    M    G    W    F    N    N    E    V    G    S    M    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25 
+   groups:     1    1    1    1    1    1    1    1    9    9    9   12   12   12   15   15   15   15   15   15   15   15   15   15   15 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    1    0    0    0    0    0    0    0    0    0    0   84    0   15    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    9   12   15 
+    is group valid:    1    0    1    1 
+  actuals group Qs:    0    0  100    0 
+estimated group Qs:    1    0   84   15 
+
+
+--------------------------------------
+cc:128
+scans: (21844, 20002) with cosine score:0.88
+QW[+16]HLEGSFPVLATEPPK
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     Q    W    H    L    E    G    S    F    P    V    L    A    T    E    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    1    1    6    6    8    9    9    9    9    9    9    9    9    9 
+  actuals:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   82    0   18    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    8    9 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:129
+scans: (1904, 2288) with cosine score:0.91
+QYLLM[+16]PGDYR
+modification:16 on site: 5
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.90
+
+  peptide:     Q    Y    L    L    M    P    G    D    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    5    6    6    6    9    9 
+  actuals:     0    0    0    0  100    0    0    0    0    0 
+estimates:     0    0    7    0   93    0    0    0    0    0 
+
+
+            groups:    1    5    6    9 
+    is group valid:    0    1    0    0 
+  actuals group Qs:    0  100    0    0 
+estimated group Qs:    7   93    0    0 
+
+
+--------------------------------------
+cc:130
+scans: (21922, 9933) with cosine score:0.81
+Q[+43]DDHGYISR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.80
+
+  peptide:     Q    D    D    H    G    Y    I    S    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    2    3    3    5    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    5    6 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:131
+scans: (5879, 9955) with cosine score:0.83
+Q[+43]DEHGFISR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     Q    D    E    H    G    F    I    S    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    1    1    1    1    1    1 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    74    0   26    0    0    0    0    0    0 
+
+
+            groups:    1 
+    is group valid:    1 
+  actuals group Qs:  100 
+estimated group Qs:  100 
+
+
+--------------------------------------
+cc:132
+scans: (20889, 8184) with cosine score:0.83
+Q[+43]QAEVAHMSQTQEEK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     Q    Q    A    E    V    A    H    M    S    Q    T    Q    E    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    7    8    9    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7    8    9 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:133
+scans: (21844, 8043) with cosine score:0.84
+Q[+43]WHLEGSFPVLATEPPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     Q    W    H    L    E    G    S    F    P    V    L    A    T    E    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    4    5    6    6    6    9    9    9    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    9 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:134
+scans: (13932, 16529) with cosine score:0.75
+Q[+43]YLLDKK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     Q    Y    L    L    D    K    K 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    5    6    7 
+  actuals:   100    0    0    0    0    0    0 
+estimates:    95    0    3    0    0    0    2 
+
+
+            groups:    1    2    3    4    5    6    7 
+    is group valid:    1    0    0    0    0    1    1 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:   95    0    3    0    0    0    2 
+
+
+--------------------------------------
+cc:135
+scans: (1904, 36) with cosine score:0.68
+Q[+43]YLLMPGDYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.68
+
+  peptide:     Q    Y    L    L    M    P    G    D    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    6    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:136
+scans: (4738, 16914) with cosine score:0.60
+Q[+43]YLLMPGDYRR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.63
+
+  peptide:     Q    Y    L    L    M    P    G    D    Y    R    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    3    4    5    6    6    6    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6    9 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:137
+scans: (18647, 17156) with cosine score:0.90
+Q[+43]YLLRPQEYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     Q    Y    L    L    R    P    Q    E    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    1    6    6    6    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   71    0    0    0    0    0   14    0   16 
+
+
+            groups:    1    6    9 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   71   14   16 
+
+
+--------------------------------------
+cc:138
+scans: (21034, 10122) with cosine score:0.74
+Q[-17]AFQIGSPWR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     Q    A    F    Q    I    G    S    P    W    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    3    3    5    6    6    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   97    0    0    0    0    0    3    0    0 
+
+
+            groups:    1    3    5    6    8 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   97    0    0    0    3 
+
+
+--------------------------------------
+cc:139
+scans: (12558, 12150) with cosine score:0.59
+Q[-17]DDFVEIHGK
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.61
+
+  peptide:     Q    D    D    F    V    E    I    H    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    5    7    8    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   52   35    0    0    3   10    0    0    0 
+
+
+            groups:    1    4    5    7    8    9 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   88    0    3   10    0    0 
+
+
+--------------------------------------
+cc:140
+scans: (21922, 5588) with cosine score:0.72
+Q[-17]DDHGYISR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     Q    D    D    H    G    Y    I    S    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    4    5    5    7    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    86    0    0    0    0   14    0    0    0 
+
+
+            groups:    1    4    5    7    8 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   86    0   14    0    0 
+
+
+--------------------------------------
+cc:141
+scans: (5879, 1248) with cosine score:0.67
+Q[-17]DEHGFISR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     Q    D    E    H    G    F    I    S    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    4    5    6    7    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:     0   16   68   16    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6    7    8 
+    is group valid:    1    0    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:   16   68   16    0    0    0    0 
+
+
+--------------------------------------
+cc:142
+scans: (10920, 10922) with cosine score:0.44
+Q[-17]IGSPWR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.44
+
+  peptide:     Q    I    G    S    P    W    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    1    3    3    5    5    5 
+  actuals:   100    0    0    0    0    0    0 
+estimates:    93    0    0    0    7    0    0 
+
+
+            groups:    1    3    5 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   93    0    7 
+
+
+--------------------------------------
+cc:143
+scans: (9143, 8679) with cosine score:0.76
+Q[-17]LAVAQQTLK
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.76
+
+  peptide:     Q    L    A    V    A    Q    Q    T    L    K 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    3    4    5    5    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:144
+scans: (10527, 10528) with cosine score:0.61
+Q[-17]LDAFQR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.60
+
+  peptide:     Q    L    D    A    F    Q    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    1    3    4    5    5    5 
+  actuals:   100    0    0    0    0    0    0 
+estimates:     0   90    2    0    0    9    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   90    2    0    9 
+
+
+--------------------------------------
+cc:145
+scans: (20889, 8196) with cosine score:0.84
+Q[-17]QAEVAHMSQTQEEK
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     Q    Q    A    E    V    A    H    M    S    Q    T    Q    E    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    7    8    9    9   11   11   11   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   96    0    0    0    0    0    0    0    4    0    0    0    0    0 
+
+
+            groups:    1    6    7    8    9   11 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   96    0    0    0    4    0 
+
+
+--------------------------------------
+cc:146
+scans: (11696, 18030) with cosine score:0.93
+Q[-17]SLFRTVLDSGISEVR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     Q    S    L    F    R    T    V    L    D    S    G    I    S    E    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    1    1    9   10   10   10   10   10   15   15 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    16    0    0    0   69    0    0    0   15    0    0    0    0    0    0    0 
+
+
+            groups:    1    9   10   15 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   85   15    0    0 
+
+
+--------------------------------------
+cc:147
+scans: (21173, 21170) with cosine score:0.89
+Q[-17]TGLDATHAER
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     Q    T    G    L    D    A    T    H    A    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    1    5    6    7    8    8    8   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   66    0   31    3    0    0    0    0    0    0 
+
+
+            groups:    1    5    6    7    8   11 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   97    3    0    0    0    0 
+
+
+--------------------------------------
+cc:148
+scans: (2490, 7454) with cosine score:0.72
+Q[-17]WHLEGSFPVLA
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     Q    W    H    L    E    G    S    F    P    V    L    A 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    1    1    1    1    8    9    9   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0  100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   11 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:149
+scans: (20797, 62) with cosine score:0.83
+Q[-17]WHLEGSFPVLATE
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     Q    W    H    L    E    G    S    F    P    V    L    A    T    E 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    1    1    1    1    1    8    9    9   11   12   13   13 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   11   12   13 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:150
+scans: (21844, 9020) with cosine score:0.79
+Q[-17]WHLEGSFPVLATEPPK
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     Q    W    H    L    E    G    S    F    P    V    L    A    T    E    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    4    5    6    6    6    9    9    9    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   41   59    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    9 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:151
+scans: (13932, 17897) with cosine score:0.79
+Q[-17]YLLDKK
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.73
+
+  peptide:     Q    Y    L    L    D    K    K 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    5    6    6 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    5    6 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:152
+scans: (15630, 19056) with cosine score:0.88
+Q[-17]YLLDKKEYR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.88
+
+  peptide:     Q    Y    L    L    D    K    K    E    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    5    6    6    6    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   96    0    0    0    4    0    0    0    0 
+
+
+            groups:    1    5    6    9 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   96    0    4    0 
+
+
+--------------------------------------
+cc:153
+scans: (1904, 2353) with cosine score:0.50
+Q[-17]YLLMPGDYR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.50
+
+  peptide:     Q    Y    L    L    M    P    G    D    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    6    6    6    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    9 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:154
+scans: (4738, 18267) with cosine score:0.78
+Q[-17]YLLMPGDYRR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.78
+
+  peptide:     Q    Y    L    L    M    P    G    D    Y    R    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    4    5    6    7    7    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   79    0    0    0    0    0   12    0    0    9 
+
+
+            groups:    1    4    5    6    7    9 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   79    0    0    0   12    9 
+
+
+--------------------------------------
+cc:155
+scans: (4274, 5121) with cosine score:0.97
+Q[-17]YLLRPGEYR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     Q    Y    L    L    R    P    G    E    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    1    6    6    6    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0   21   79    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    9 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:156
+scans: (18647, 22361) with cosine score:0.90
+Q[-17]YLLRPQEYR
+modification:-17 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     Q    Y    L    L    R    P    Q    E    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    1    1    6    6    6    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0  100    0    0    0    0    0 
+
+
+            groups:    1    6    9 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:157
+scans: (19184, 19179) with cosine score:0.95
+RGDYADHQQWM[+16]GLSDSVR
+modification:16 on site: 11
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.94
+
+  peptide:     R    G    D    Y    A    D    H    Q    Q    W    M    G    L    S    D    S    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    7    7    7    7    7    7    7    7    7    7    7    7 
+  actuals:     0    0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    3    0   58    0    0   39    0    0    0    0    0    0    0 
+
+
+            groups:    1    7 
+    is group valid:    0    1 
+  actuals group Qs:    0  100 
+estimated group Qs:    3   97 
+
+
+--------------------------------------
+cc:158
+scans: (18982, 18507) with cosine score:0.94
+RGEYPDYQQWM[+16]GLSDSIR
+modification:16 on site: 11
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     R    G    E    Y    P    D    Y    Q    Q    W    M    G    L    S    D    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    7    7    7    7    7    7    7    7    7    7    7    7 
+  actuals:     0    0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0    0   89    0    0    0    0   11    0    0 
+
+
+            groups:    1    7 
+    is group valid:    0    1 
+  actuals group Qs:    0  100 
+estimated group Qs:    0  100 
+
+
+--------------------------------------
+cc:159
+scans: (18982, 18960) with cosine score:0.95
+RGEYPDYQQW[+16]MGLSDSIR
+modification:16 on site: 10
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.95
+
+  peptide:     R    G    E    Y    P    D    Y    Q    Q    W    M    G    L    S    D    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    7    7    7    7    7    7    7    7    7   16   16   16 
+  actuals:     0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0   50    0    0    0    0   30   20    0    0 
+
+
+            groups:    1    7   16 
+    is group valid:    0    1    0 
+  actuals group Qs:    0  100    0 
+estimated group Qs:    0   80   20 
+
+
+--------------------------------------
+cc:160
+scans: (18982, 17269) with cosine score:0.79
+R[+43]GEYPDYQQWMGLSDSIR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.77
+
+  peptide:     R    G    E    Y    P    D    Y    Q    Q    W    M    G    L    S    D    S    I    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    7    7    7    7    7    7    7    7    7   16   16   16 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0   85    0    0    0    0   15    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7   16 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   85   15    0 
+
+
+--------------------------------------
+cc:161
+scans: (19309, 17511) with cosine score:0.36
+R[+43]PFFPFH
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     R    P    F    F    P    F    H 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    2    4    5    5    7 
+  actuals:   100    0    0    0    0    0    0 
+estimates:    21    0    0   68    0    0   11 
+
+
+            groups:    1    2    4    5    7 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   21    0   68    0   11 
+
+
+--------------------------------------
+cc:162
+scans: (15857, 22922) with cosine score:0.36
+R[+43]PFFPFHSPSR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.36
+
+  peptide:     R    P    F    F    P    F    H    S    P    S    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    1    1    1    6    6    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:    90    0    3    0    0    0    0    0    0    0    7 
+
+
+            groups:    1    6 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:   93    7 
+
+
+--------------------------------------
+cc:163
+scans: (15507, 21482) with cosine score:0.78
+R[+43]TDSLSSLRPIK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.71
+
+  peptide:     R    T    D    S    L    S    S    L    R    P    I    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    4    4    4    4    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    72    0   19    0    0    0    0    0    0    0    0    9 
+
+
+            groups:    1    4 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:   91    9 
+
+
+--------------------------------------
+cc:164
+scans: (7810, 9073) with cosine score:0.63
+SIIVSAGPWVAFEQSNFRGEM[+16]F
+modification:16 on site: 21
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.61
+
+  peptide:     S    I    I    V    S    A    G    P    W    V    A    F    E    Q    S    N    F    R    G    E    M    F 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   50    0    0   50    0 
+
+
+            groups:    1 
+    is group valid:    1 
+  actuals group Qs:  100 
+estimated group Qs:  100 
+
+
+--------------------------------------
+cc:165
+scans: (18609, 1106) with cosine score:0.83
+SIIVSAGPW[+16]VAFEQSNFR
+modification:16 on site: 9
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.85
+
+  peptide:     S    I    I    V    S    A    G    P    W    V    A    F    E    Q    S    N    F    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    7    8    8   10   11   12   12   12   12   12   12   12 
+  actuals:     0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0   38    0   63    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7    8   10   11   12 
+    is group valid:    0    0    1    0    0    0 
+  actuals group Qs:    0    0  100    0    0    0 
+estimated group Qs:    0   38   63    0    0    0 
+
+
+--------------------------------------
+cc:166
+scans: (14057, 18660) with cosine score:0.23
+SIMEQFHM[+16]R
+modification:16 on site: 8
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.15
+
+  peptide:     S    I    M    E    Q    F    H    M    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    1    1    6    6    6    6 
+  actuals:     0    0    0    0    0    0    0  100    0 
+estimates:    92    0    8    0    0    0    0    0    0 
+
+
+            groups:    1    6 
+    is group valid:    1    1 
+  actuals group Qs:    0  100 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:167
+scans: (20596, 11513) with cosine score:0.62
+S[+43]DHQTQAGKPQSLNPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.62
+
+  peptide:     S    D    H    Q    T    Q    A    G    K    P    Q    S    L    N    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    5    5    5    8    8   10   10   10   10   10   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    8   10 
+    is group valid:    1    0    1    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:168
+scans: (18609, 7338) with cosine score:0.70
+S[+43]IIVSAGPWVAFEQSNFR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.69
+
+  peptide:     S    I    I    V    S    A    G    P    W    V    A    F    E    Q    S    N    F    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    5    5    5    8    8   10   11   12   12   12   12   12   12   12 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    8   10   11   12 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:169
+scans: (14057, 2740) with cosine score:0.56
+S[+43]IMEQFHMR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.55
+
+  peptide:     S    I    M    E    Q    F    H    M    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    4    5    6    7    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6    7    8 
+    is group valid:    1    0    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0    0 
+
+
+--------------------------------------
+cc:170
+scans: (4184, 9565) with cosine score:0.93
+S[+43]LPEKGPPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     S    L    P    E    K    G    P    P    K 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    3    3    3    3    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    94    0    6    0    0    0    0    0    0 
+
+
+            groups:    1    3    8 
+    is group valid:    1    1    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   94    6    0 
+
+
+--------------------------------------
+cc:171
+scans: (2772, 183) with cosine score:0.82
+S[+43]LWVYGFSDR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     S    L    W    V    Y    G    F    S    D    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    1    4    5    6    6    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    8 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:172
+scans: (9624, 19640) with cosine score:0.65
+TNAM[+16]SGLVR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.65
+
+  peptide:     T    N    A    M    S    G    L    V    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    4    5    5    5    5    5 
+  actuals:     0    0    0  100    0    0    0    0    0 
+estimates:     0    0    0  100    0    0    0    0    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    0    0    1    0 
+  actuals group Qs:    0    0  100    0 
+estimated group Qs:    0    0  100    0 
+
+
+--------------------------------------
+cc:173
+scans: (19781, 19734) with cosine score:0.94
+TQTAIASEDM[+16]PNTLTEAEK
+modification:16 on site: 10
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.93
+
+  peptide:     T    Q    T    A    I    A    S    E    D    M    P    N    T    L    T    E    A    E    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    6    7    7    9   10   11   11   11   11   11   11   11   11   11 
+  actuals:     0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0   94    6    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6    7    9   10   11 
+    is group valid:    0    0    0    0    1    0 
+  actuals group Qs:    0    0    0    0  100    0 
+estimated group Qs:    0    0    0    0   94    6 
+
+
+--------------------------------------
+cc:174
+scans: (21213, 19932) with cosine score:0.83
+T[+43]DSLSSLRPIK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     T    D    S    L    S    S    L    R    P    I    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    2    3    3    5    6    6    6    6   10   10 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    5    6   10 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:175
+scans: (15515, 21747) with cosine score:0.72
+T[+43]DSLSSLRPIKVDSQEHK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.75
+
+  peptide:     T    D    S    L    S    S    L    R    P    I    K    V    D    S    Q    E    H    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1   14   14   14   14   14 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    60    0    0    0    0    0    0    0    0   16    0    0    0    0    0    0    0   24 
+
+
+            groups:    1   14 
+    is group valid:    1    1 
+  actuals group Qs:  100    0 
+estimated group Qs:   76   24 
+
+
+--------------------------------------
+cc:176
+scans: (13423, 10091) with cosine score:0.91
+T[+43]IQHPWFK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     T    I    Q    H    P    W    F    K 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    3    4    5    6    6    8 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:    59    0   39    0    0    0    0    2 
+
+
+            groups:    1    3    4    5    6    8 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   59   39    0    0    0    2 
+
+
+--------------------------------------
+cc:177
+scans: (2178, 83) with cosine score:0.77
+T[+43]ISPYYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.77
+
+  peptide:     T    I    S    P    Y    Y    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    1    3    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    3    4 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:178
+scans: (19753, 7272) with cosine score:0.67
+T[+43]LAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.66
+
+  peptide:     T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13 
+   groups:     1    1    3    4    4    4    4    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    8 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:179
+scans: (16573, 16239) with cosine score:0.22
+T[+43]LGPFYPSR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.23
+
+  peptide:     T    L    G    P    F    Y    P    S    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    2    3    4    4    6    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    93    0    7    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    6    7 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   93    0    7    0    0    0 
+
+
+--------------------------------------
+cc:180
+scans: (3795, 9099) with cosine score:0.97
+T[+43]QAGKPQSLNPK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.96
+
+  peptide:     T    Q    A    G    K    P    Q    S    L    N    P    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12 
+   groups:     1    1    1    4    5    6    6    6    6   10   11   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6   10   11 
+    is group valid:    1    0    1    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:181
+scans: (19759, 7217) with cosine score:0.94
+T[+43]TLAPTTVPITSAK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.94
+
+  peptide:     T    T    L    A    P    T    T    V    P    I    T    S    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    1    1    5    5    5    8    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5    8    9 
+    is group valid:    1    0    0    1 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:182
+scans: (20091, 19485) with cosine score:0.34
+T[+43]VLDSGISEVR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.34
+
+  peptide:     T    V    L    D    S    G    I    S    E    V    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    3    4    4    4    4    8    9    9   11 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    8    9   11 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:183
+scans: (21155, 20748) with cosine score:0.73
+VEGGTWAVYERPNFAGYM[+16]Y
+modification:16 on site: 18
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.78
+
+  peptide:     V    E    G    G    T    W    A    V    Y    E    R    P    N    F    A    G    Y    M    Y 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    1    9   10   10   12   12   12   12   12   12   12   12 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0  100    0 
+estimates:     0    0    0    0    0    0    0    0   12    0    0    0    0    0    0    0    3    0   85 
+
+
+            groups:    1    9   10   12 
+    is group valid:    1    0    0    1 
+  actuals group Qs:    0    0    0  100 
+estimated group Qs:    0   12    0   88 
+
+
+--------------------------------------
+cc:184
+scans: (10881, 1652) with cosine score:0.55
+VLEGVW[+16]IFYELPNYR
+modification:16 on site: 6
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.51
+
+  peptide:     V    L    E    G    V    W    I    F    Y    E    L    P    N    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    6    6    6    6   10   11   12   12   12   12 
+  actuals:     0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    6   10   11   12 
+    is group valid:    0    1    0    0    0 
+  actuals group Qs:    0  100    0    0    0 
+estimated group Qs:    0  100    0    0    0 
+
+
+--------------------------------------
+cc:185
+scans: (17159, 20367) with cosine score:0.95
+VQSGTW[+16]VGYQYPGYR
+modification:16 on site: 6
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.95
+
+  peptide:     V    Q    S    G    T    W    V    G    Y    Q    Y    P    G    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    8    8    8   11   12   12   12   12 
+  actuals:     0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0   86   14    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8   11   12 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:186
+scans: (20801, 20374) with cosine score:0.97
+VSSGTW[+16]VGYQYPGYR
+modification:16 on site: 6
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.97
+
+  peptide:     V    S    S    G    T    W    V    G    Y    Q    Y    P    G    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    8    8    8   11   12   12   12   12 
+  actuals:     0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    0   98    0    2    0    0    0    0    0    0    0 
+
+
+            groups:    1    8   11   12 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:   98    2    0    0 
+
+
+--------------------------------------
+cc:187
+scans: (7940, 16457) with cosine score:0.90
+VVVDLPTSASSSM[+16]PLQR
+modification:16 on site: 13
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.90
+
+  peptide:     V    V    V    D    L    P    T    S    A    S    S    S    M    P    L    Q    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+   groups:     1    1    1    1    1    6    6    6    6   10   10   10   10   14   14   14   14 
+  actuals:     0    0    0    0    0    0    0    0    0    0    0    0  100    0    0    0    0 
+estimates:     0    0    0    0    0    0    0    0    0    0    0   25   70    5    0    0    0 
+
+
+            groups:    1    6   10   14 
+    is group valid:    0    0    1    0 
+  actuals group Qs:    0    0  100    0 
+estimated group Qs:    0    0   95    5 
+
+
+--------------------------------------
+cc:188
+scans: (10316, 14) with cosine score:0.84
+V[+43]ATVSLPR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     V    A    T    V    S    L    P    R 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    1    4    5    6    7    7 
+  actuals:   100    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6    7 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:189
+scans: (21155, 7327) with cosine score:0.39
+V[+43]EGGTWAVYERPNFAGYMY
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.38
+
+  peptide:     V    E    G    G    T    W    A    V    Y    E    R    P    N    F    A    G    Y    M    Y 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1   18   18 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1   18 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:190
+scans: (12796, 20267) with cosine score:0.85
+V[+43]HALEQVSQELETQLR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.82
+
+  peptide:     V    H    A    L    E    Q    V    S    Q    E    L    E    T    Q    L    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16 
+   groups:     1    1    1    1    1    1    7    8    8    8    8    8    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    87   13    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    7    8 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:191
+scans: (20972, 16670) with cosine score:0.86
+V[+43]LGDVIEVHGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.85
+
+  peptide:     V    L    G    D    V    I    E    V    H    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    2    3    3    5    6    7    8    8    8    8 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:    95    0    1    0    4    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    5    6    7    8 
+    is group valid:    1    0    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0    0 
+estimated group Qs:   95    0    1    4    0    0    0 
+
+
+--------------------------------------
+cc:192
+scans: (23413, 6675) with cosine score:0.76
+V[+43]LGDVIEVHGKHEER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.74
+
+  peptide:     V    L    G    D    V    I    E    V    H    G    K    H    E    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    8    9   10   10   12   12   12   12 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    32    0    0    0    0    0   14    0    0    0   13   42    0    0    0 
+
+
+            groups:    1    8    9   10   12 
+    is group valid:    1    0    0    1    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:   45    0    0   13   42 
+
+
+--------------------------------------
+cc:193
+scans: (3203, 8138) with cosine score:0.73
+V[+43]LSGAWVGFEHAGFQGQQYILER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     V    L    S    G    A    W    V    G    F    E    H    A    G    F    Q    G    Q    Q    Y    I    L    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23 
+   groups:     1    1    1    1    1    1    1    8    8    8    8   12   13   13   13   13   13   13   13   13   13   13   13 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8   12   13 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:194
+scans: (12991, 8320) with cosine score:0.76
+V[+43]QDDFVEIHGK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.73
+
+  peptide:     V    Q    D    D    F    V    E    I    H    G    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11 
+   groups:     1    1    3    3    5    6    7    7    7    7    7 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    5    6    7 
+    is group valid:    1    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:195
+scans: (17159, 19492) with cosine score:0.71
+V[+43]QSGTWVGYQYPGYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.69
+
+  peptide:     V    Q    S    G    T    W    V    G    Y    Q    Y    P    G    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    8    9   10   11   12   12   12   12 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8    9   10   11   12 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:196
+scans: (20801, 17179) with cosine score:0.64
+V[+43]SSGTWVGYQYPGYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.64
+
+  peptide:     V    S    S    G    T    W    V    G    Y    Q    Y    P    G    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+   groups:     1    1    1    1    1    1    1    8    8    8   11   12   12   12   12 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    8   11   12 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:197
+scans: (14049, 20709) with cosine score:0.47
+V[+43]TIQHPWFK
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.45
+
+  peptide:     V    T    I    Q    H    P    W    F    K 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    2    3    4    5    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    5    6 
+    is group valid:    1    0    0    0    0    1 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:  100    0    0    0    0    0 
+
+
+--------------------------------------
+cc:198
+scans: (23007, 22623) with cosine score:0.93
+WDAW[+16]SGSNAYHIER
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.92
+
+  peptide:     W    D    A    W    S    G    S    N    A    Y    H    I    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    3    3    5    6    7    7    7    7    7    7    7    7 
+  actuals:     0    0    0  100    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0   66   34    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    5    6    7 
+    is group valid:    1    1    0    0    0 
+  actuals group Qs:    0  100    0    0    0 
+estimated group Qs:    0  100    0    0    0 
+
+
+--------------------------------------
+cc:199
+scans: (3089, 10548) with cosine score:0.73
+WDSW[+16]TSSR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.86
+
+  peptide:     W    D    S    W    T    S    S    R 
+ variants:     1    2    3    4    5    6    7    8 
+   groups:     1    1    1    1    5    5    5    5 
+  actuals:     0    0    0  100    0    0    0    0 
+estimates:    27   36    0   36    0    0    0    0 
+
+
+            groups:    1    5 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:200
+scans: (17441, 10710) with cosine score:0.86
+WM[+16]GLNDR
+modification:16 on site: 2
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.85
+
+  peptide:     W    M    G    L    N    D    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    3    5    5    5 
+  actuals:     0  100    0    0    0    0    0 
+estimates:     0  100    0    0    0    0    0 
+
+
+            groups:    1    2    3    5 
+    is group valid:    1    1    0    0 
+  actuals group Qs:    0  100    0    0 
+estimated group Qs:    0  100    0    0 
+
+
+--------------------------------------
+cc:201
+scans: (21465, 17638) with cosine score:0.83
+WNTW[+16]SSSYR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.84
+
+  peptide:     W    N    T    W    S    S    S    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    3    3    6    6    6    6 
+  actuals:     0    0    0  100    0    0    0    0    0 
+estimates:     0    0    0    6   91    3    0    0    0 
+
+
+            groups:    1    3    6 
+    is group valid:    1    1    0 
+  actuals group Qs:    0  100    0 
+estimated group Qs:    0   97    3 
+
+
+--------------------------------------
+cc:202
+scans: (23007, 4719) with cosine score:0.91
+W[+16]DAWSGSNAYHIER
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.91
+
+  peptide:     W    D    A    W    S    G    S    N    A    Y    H    I    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    1    1    5    5    5    5    5    5    5    5    5    5 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    79    0   21    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    5 
+    is group valid:    1    0 
+  actuals group Qs:  100    0 
+estimated group Qs:  100    0 
+
+
+--------------------------------------
+cc:203
+scans: (17441, 20976) with cosine score:0.90
+W[+16]MGLNDR
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.85
+
+  peptide:     W    M    G    L    N    D    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    1    3    3    3    6    6 
+  actuals:   100    0    0    0    0    0    0 
+estimates:    57   43    0    0    0    0    0 
+
+
+            groups:    1    3    6 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 
+
+
+--------------------------------------
+cc:204
+scans: (21465, 10936) with cosine score:0.81
+W[+16]NTWSSSYR
+modification:16 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.81
+
+  peptide:     W    N    T    W    S    S    S    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    4    4    4    4    4    4 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    94    0    0    0    0    0    0    6    0 
+
+
+            groups:    1    3    4 
+    is group valid:    1    0    1 
+  actuals group Qs:  100    0    0 
+estimated group Qs:   94    0    6 
+
+
+--------------------------------------
+cc:205
+scans: (23007, 21105) with cosine score:0.89
+W[+43]DAWSGSNAYHIER
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     W    D    A    W    S    G    S    N    A    Y    H    I    E    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   groups:     1    1    3    4    5    6    6    6    9    9    9    9    9    9 
+  actuals:   100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:    97    0    3    0    0    0    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5    6    9 
+    is group valid:    1    0    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0    0 
+estimated group Qs:   97    3    0    0    0    0 
+
+
+--------------------------------------
+cc:206
+scans: (17441, 7359) with cosine score:0.74
+W[+43]MGLNDR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.69
+
+  peptide:     W    M    G    L    N    D    R 
+ variants:     1    2    3    4    5    6    7 
+   groups:     1    2    3    4    5    5    5 
+  actuals:   100    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0 
+
+
+            groups:    1    2    3    4    5 
+    is group valid:    1    0    0    0    0 
+  actuals group Qs:  100    0    0    0    0 
+estimated group Qs:  100    0    0    0    0 
+
+
+--------------------------------------
+cc:207
+scans: (21465, 7585) with cosine score:0.69
+W[+43]NTWSSSYR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.72
+
+  peptide:     W    N    T    W    S    S    S    Y    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    4    5    6    6    6    6 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:    50    0   50    0    0    0    0    0    0 
+
+
+            groups:    1    4    5    6 
+    is group valid:    1    0    0    0 
+  actuals group Qs:  100    0    0    0 
+estimated group Qs:  100    0    0    0 
+
+
+--------------------------------------
+cc:208
+scans: (17087, 17084) with cosine score:0.89
+YQDW[+16]GATNAR
+modification:16 on site: 4
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.89
+
+  peptide:     Y    Q    D    W    G    A    T    N    A    R 
+ variants:     1    2    3    4    5    6    7    8    9   10 
+   groups:     1    1    3    4    5    5    5    5    5    5 
+  actuals:     0    0    0  100    0    0    0    0    0    0 
+estimates:     0    0   17   83    0    0    0    0    0    0 
+
+
+            groups:    1    3    4    5 
+    is group valid:    0    0    1    0 
+  actuals group Qs:    0    0  100    0 
+estimated group Qs:    0   17   83    0 
+
+
+--------------------------------------
+cc:209
+scans: (5098, 9813) with cosine score:0.98
+Y[+43]LRPPSFLR
+modification:43 on site: 1
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.97
+
+  peptide:     Y    L    R    P    P    S    F    L    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    1    4    4    4    4    4    9 
+  actuals:   100    0    0    0    0    0    0    0    0 
+estimates:   100    0    0    0    0    0    0    0    0 
+
+
+            groups:    1    4    9 
+    is group valid:    1    0    0 
+  actuals group Qs:  100    0    0 
+estimated group Qs:  100    0    0 

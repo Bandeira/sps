@@ -1,0 +1,26 @@
+INPUT_SPECS (*.pklbin)=specs_scored_merged.pklbin
+# INPUT_SPECS (*.mgf)=
+
+# CID, HCD, or ETD
+# ACTIVATION=
+
+OUTPUT_SPECS (*.pklbin)=specs_scored_ranked.pklbin
+# ACTIVATION=
+# OUTPUT_SPECS (*.mgf)=
+
+TOLERANCE_PEAK=0.05
+RESOLUTION=0.01
+
+# AMINO_ACID_MASSES=
+
+# If peptides are known, uncomment next line and intensityfilter
+# will converge on the threshold between minimum and maximum intensity with the best
+# matched peaks/total peaks ratio
+# MIN_INTENSITY=3
+
+# Uncomment to show b/y statistics
+# INPUT_PEPTIDES (*.txt)=cid_hcd_peptides.txt
+
+# Uncomment next line to use PPM
+# TOLERANCE_PPM=
+

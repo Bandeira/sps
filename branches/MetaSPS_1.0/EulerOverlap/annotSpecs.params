@@ -1,0 +1,5 @@
+INPUT_SPECS (*.pklbin)=
+INPUT_SPECS (*.mgf)=
+OUTPUT_ANNOT_SPECS (*.mgf)=
+INPUT_PEPTIDES (*.txt)=
+

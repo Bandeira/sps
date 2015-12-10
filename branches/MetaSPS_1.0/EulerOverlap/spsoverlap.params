@@ -1,0 +1,17 @@
+INPUT_CONTIG_SPECTRA (*.pklbin)=../sps_seqs.pklbin
+INPUT_MATCHED_PEAKS_IDX (*midx.pklbin)=../matchma_orbcal_p9_midx.pklbin
+INPUT_MATCHED_PROTS (*mp.bin)=../matchma_orbcal_p9_mp.bin
+CONTIG_TOLERANCE_PEAK=0.5
+INPUT_CONTIG_COMPONENTS=../final_components_save.csv
+
+# INPUT_CONNECTOR_SPECTRA (*.pklbin)=
+# INPUT_CONNECTOR_PEPTIDES=/home/aguthals/orbcal_p2/orbcal_peptides.txt
+# MINIMUM_CONNECTOR_CHARGE=4
+# CONNECTOR_TOLERANCE_PEAK=0.05
+
+INPUT_FASTA=../orbcalCC.fasta
+PROTEIN_INDEX=all
+AA_PER_LINE=25
+DELIMETER=,
+OUTPUT_FILE (*.csv)=overlap_.csv
+

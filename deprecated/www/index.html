@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+
+  <META http-equiv="Content-Type" content="text/shtml; charset=ISO-8859-1" />
+
+  <TITLE>UCSD Computational Mass Spectrometry Website</TITLE>
+  <LINK href="styles/main.css" rel="stylesheet" type="text/css" />
+  <LINK rel="shortcut icon" href="../../images/favicon.ico" type="image/icon" />
+  <SCRIPT src="scripts/util.js" language="javascript" type="text/javascript"></SCRIPT>
+  <SCRIPT src="scripts/download.js" language="javascript" type="text/javascript"></SCRIPT>
+  <SCRIPT src="scripts/render.js" language="javascript" type="text/javascript"></SCRIPT>
+  <SCRIPT src="scripts/inspect.js" language="javascript" type="text/javascript"></SCRIPT>
+  <SCRIPT src="js/mootools.js" type="text/javascript"></SCRIPT>
+  <SCRIPT src="js/slimbox.js" type="text/javascript"></SCRIPT>
+  <LINK href="css/slimbox.css" rel="stylesheet" type="text/css" media="screen" />
+  <SCRIPT src="js/sorttable.js"></SCRIPT>
+
+  <SCRIPT type="text/javascript">
+  <!--hide
+  function modalWin(filename)
+  {
+    if (window.showModalDialog)
+    {
+      window.showModalDialog(filename, "name", "dialogWidth:640px; dialogHeight:480px");
+    }
+    else
+    {
+      window.open(filename, 'name', 'width=640, height=480, toolbar=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, modal=yes');
+    }
+  }
+  //-->
+  </SCRIPT>
+
+  <SCRIPT src="js/pager.js" language="javascript" type="text/javascript"></SCRIPT>
+  <NOSCRIPT>
+    <META http-equiv="refresh" content="10">
+  </NOSCRIPT>
+
+  <SCRIPT language="JavaScript">
+  <!--
+  var sURL = unescape(window.location.pathname);
+  function doLoad()
+  {
+      setTimeout( "refresh()", 10*1000 );
+  }
+
+  function refresh()
+  {
+      window.location.href = sURL;
+  }
+  //-->
+  </SCRIPT>
+
+  <SCRIPT language="JavaScript1.1">
+  <!--
+  function refresh()
+  {
+      window.location.replace( sURL );
+  }
+  //-->
+  </SCRIPT>
+
+  <SCRIPT language="JavaScript1.2">
+  <!--
+  function refresh()
+  {
+      window.location.reload(true);
+  }
+  //-->
+  </SCRIPT>
+  <SCRIPT TYPE="text/javascript">
+  <!--
+  function popup(mylink, windowname)
+  {
+    if (! window.focus)
+      return true;
+
+    var href;
+    if (typeof(mylink) == 'string')
+      href=mylink;
+    else
+      href=mylink.href;
+    window.open(href, windowname, 'width=700,height=400,scrollbars=yes');
+    return false;
+  }
+  //-->
+  </SCRIPT>
+</HEAD>
+<DIV id="rb_logos">
+  <H3 align=center><img src="images/pagelogo_ccms_left.jpg" border="0"/></H3>
+</DIV>
+<BODY LANG="ru-RU" TEXT="#000000" DIR="LTR">
+  <BR>
+  <DIV id="bodyWrapper">
+  <DIV id="textWrapper">
+  <HR>
+
+  <TABLE class="mainform">
+        <TR>
+          <TD>
+            <TABLE DIR="LTR" CELLPADDING=0 CELLSPACING=0>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Description:</P>
+                </TD>
+                <TD COLSPAN=4>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_1" MAXLENGTH=255 style="width:100%">
+                                    </P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Spectrum Files:</P>
+                </TD>
+                <TD COLSPAN=4>
+                  <BUTTON type="button" onClick="return popup('index.php','Spectrum Files')">Repository</BUTTON>
+                </TD>
+              </TR>
+              <TR>
+                <TD COLSPAN=6 WIDTH=623 VALIGN=TOP>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Parent mass tolerance:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_2" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">MS/MS type:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">
+                    <SELECT name="menu" style="width:100%">
+                    <OPTION value="1">Ion trap</OPTION>
+                    <OPTION value="2">LTQ orbitrap</OPTION>
+                    </SELECT>
+                  </P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal"><INPUT TYPE=CHECKBOX NAME="CHECK_BOX_3" VALUE="Yes">
+                  Enable correction</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Cysteine-protecting group:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">
+                    <SELECT name="menu" style="width:100%">
+                    <OPTION value="0" selected>None</OPTION>
+                    <OPTION value="1">IAA (+57 Da)</OPTION>
+                    <OPTION value="2">NIPIA (+99 Da)</OPTION>
+                    </SELECT>
+                  </P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Peak mass tolerance:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_3" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD COLSPAN=2 WIDTH=207>
+                  <P CLASS="msonormal"><INPUT TYPE=CHECKBOX NAME="CHECK_BOX_2" VALUE="Yes">
+                  Discard low quality spectra</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Minimum quality:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_4" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD COLSPAN=2 WIDTH=207>
+                  <P CLASS="msonormal"><INPUT TYPE=CHECKBOX NAME="CHECK_BOX_1" VALUE="Yes">
+                  MS cluster</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Minimum cluster size:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_5" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD COLSPAN=2 WIDTH=207>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR>
+                <TD COLSPAN=6 WIDTH=623 VALIGN=TOP>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Minimum spectrum overlap:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_6" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD COLSPAN=2 WIDTH=207>
+                  <P CLASS="msonormal"><INPUT TYPE=CHECKBOX NAME="CHECK_BOX_4" VALUE="Yes">
+                  Filter triangles</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Minimum # matched peaks:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_7" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Minimum spectra per contig:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_13" MAXLENGTH=255>
+                                    </P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Minimum % matched score:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_9" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Smallest reported sequence:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_14" MAXLENGTH=255>
+                                    </P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Maximum alignment p-value:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_10" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Grid # nodes:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_15" MAXLENGTH=255>
+                                    </P>
+                </TD>
+              </TR>
+              <TR VALIGN=TOP>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Maximum modification mass:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_11" MAXLENGTH=255>
+                                    </P>
+                </TD>
+                <TD WIDTH=23>
+                  <P CLASS="msonormal">&nbsp;</P>
+                </TD>
+                <TD WIDTH=183>
+                  <P CLASS="msonormal">Grid path:</P>
+                </TD>
+                <TD>
+                  <P CLASS="msonormal"><INPUT TYPE=TEXT NAME="TEXT_16" MAXLENGTH=255>
+                                    </P>
+                </TD>
+              </TR>
+            </TABLE>
+            <P CLASS="msonormal" STYLE="margin-bottom: 0.19in; border: none; padding: 0in">
+            &nbsp;</P>
+          </TD>
+        </TR>
+      </TABLE>
+</BODY>
+</HTML>

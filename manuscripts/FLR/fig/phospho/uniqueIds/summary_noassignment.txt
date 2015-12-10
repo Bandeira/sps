@@ -1,0 +1,66 @@
+
+
+--------------------------------------
+cc:160
+scans: (106016, 136728) with cosine score:0.90
+HVTFDKLDES[-18]DENEEALAK
+modification:-18 on site: 10
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.76
+
+  peptide:     H    V    T    F    D    K    L    D    E    S    D    E    N    E    E    A    L    A    K 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19 
+   groups:     1    1    3    3    3    6    6    8    9   10   10   12   12   12   12   12   12   12   19 
+  actuals:     0    0    0    0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    0    0    4    0   24    0   39    0   26    7    0    0    0    0    0    0    0 
+
+
+            groups:    1    3    6    8    9   10   12   19 
+    is group valid:    0    1    0    0    0    1    0    0 
+  actuals group Qs:    0    0    0    0    0  100    0    0 
+estimated group Qs:    0    4   24    0   39   26    7    0 
+
+
+--------------------------------------
+cc:323
+scans: (150415, 136811) with cosine score:0.96
+RLDDGDS[-18]DDENLDVNHIISR
+modification:-18 on site: 7
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.97
+
+  peptide:     R    L    D    D    G    D    S    D    D    E    N    L    D    V    N    H    I    I    S    R 
+ variants:     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20 
+   groups:     1    1    1    1    5    5    7    7    9   10   10   10   10   14   14   14   14   14   14   14 
+  actuals:     0    0    0    0    0    0  100    0    0    0    0    0    0    0    0    0    0    0    0    0 
+estimates:     0    0    4    0    0   19    0   36    0    0    0    0   13    0    0    0    0    0   27    0 
+
+
+            groups:    1    5    7    9   10   14 
+    is group valid:    0    0    1    0    0    1 
+  actuals group Qs:    0    0  100    0    0    0 
+estimated group Qs:    4   19   36    0   13   27 
+
+
+--------------------------------------
+cc:400
+scans: (34921, 120438) with cosine score:0.72
+SNS[-18]ETNIKR
+modification:-18 on site: 3
+
+Result:
+cosine score of observed spectrum with theoretical spectrum:0.70
+
+  peptide:     S    N    S    E    T    N    I    K    R 
+ variants:     1    2    3    4    5    6    7    8    9 
+   groups:     1    1    3    4    4    4    4    4    4 
+  actuals:     0    0  100    0    0    0    0    0    0 
+estimates:    24    4   35    0    0    0   19    0   19 
+
+
+            groups:    1    3    4 
+    is group valid:    1    1    1 
+  actuals group Qs:    0  100    0 
+estimated group Qs:   28   35   37 

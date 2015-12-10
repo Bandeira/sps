@@ -1,0 +1,2 @@
+INPUT_SPECTRA=assembly/sps_seqs.pklbin
+OUTPUT_SPECTRA=meta_contigs.mgf

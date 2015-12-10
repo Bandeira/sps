@@ -1,0 +1,51 @@
+\documentclass[llncs]{article}
+\usepackage{lscape}
+%\usepackage{graphics}
+\usepackage[small]{caption}
+\usepackage{authblk}
+
+
+\title{\bf Spectral Library Generating Function for Assessing Spectrum-Spectrum Match Significance }
+\author[1,2]{Mingxun Wang}
+\author[1,2,3]{Nuno Bandeira}
+
+\date{}
+
+\affil[1]{University of California, San Diego, Dept. of Computer Science and Engineering, 9500 Gilman Dr., La Jolla, CA, 92093, USA \{\texttt{miw023, bandeira}\}\texttt{@ucsd.edu} }
+\affil[2]{Center for Computational Mass Spectrometry, CSE, UCSD}
+\affil[3]{Skaggs School of Pharmacy and Pharm. Sci., UCSD}
+
+\begin{document}
+
+
+\maketitle
+
+%\let\oldthefootnote\thefootnote
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%\footnotetext[1]{To whom correspondence should be addressed. Email: \url{kinbote@example.com}}
+%\let\thefootnote\oldthefootnote
+
+
+% \section{Introduction}
+
+Tandem mass spectrometry (MS/MS) continues to be the technology of choice for high-throughput analysis of complex proteomics samples. While MS/MS spectra are commonly identified by matching against a database of known protein sequences, the complementary approach of spectral library searching ~\cite{lam07,wang10,dasari12}  against collections of reference spectra consistently outperforms sequence-based searches by resulting in significantly more identified spectra.
+But despite this demonstrated superior sensitivity, the development of methods to determine the statistical significance of Spectrum-Spectrum Matches (SSMs) in peptide spectral library searches is still in its early stages.
+
+The most common approach to controlling the False Discovery Rate (FDR) in both database search~\cite{elias07} and spectral library search~\cite{lam10} is the Target-Decoy approach where one extends the database/library of true peptides with a complement of sequences/spectra from `random' peptides and uses matches to the latter to estimate the number of false matches to true sequences/spectra. But while these FDR approaches continue to be very valuable in correcting for multiple hypothesis testing in large-scale experiments, they provide little to no insight on the statistical significance of individual SSMs or Peptide Spectrum Matches (PSMs).
+
+The estimation of the significance of SSMs is currently hindered by difficulties in finding an appropriate definition of `random' SSMs to use as a null model when estimating the significance of true SSMs. 
+We propose to avoid this problem by changing the null hypothesis -- instead of determining the probability of a random match with a score $\ge T$, our approach determines the probability that a \emph{true} match has a score $\le T$. 
+To this end, we explicitly model the variation in instrument measurements of MS/MS peak intensities (using a reference spectral library and a set of matching experimental MS/MS spectra) and show how these models can be used to determine a theoretical distribution of SSM scores between reference and query spectra of the same molecule. While the proposed Spectral Library Generating Function (SLGF) approach can be used to calculate theoretical distributions for any additive SSM score (e.g., any dot product), we further show how it can be used to calculate the distribution of expected cosines between reference library and replicate query spectra. 
+To assess the statistical significance of a score of a SSM between a reference library and unknown query spectrum, we used these SLGF calculated theoretical cosine score distributions to derive a p-value. 
+In evaluating SLGF we explored both the accuracy of the theoretical distributions as well as SLGF's usefulness in the context of spectral library search. First we show that these expected cosine distributions did indeed approximate empirical score distributions and note that further work is necessary to enable more accurate theoretical distribution calculations. 
+Second, using these p-values as scores, we demonstrate that these SLGF-based SSM p-value scores significantly outperform current state-of-the-art spectral library search tools such as SpectraST \cite{lam07} in our test dataset. We additionally provide a detailed discussion of the multiple reasons behind the observed differences in the sets of identified MS/MS spectra.
+
+
+{\bf Acknowledgements}
+This work was supported by the National Institutes of Health grant 3-P41-GM103484 from the National Institute of General Medical Sciences.
+
+
+\bibliographystyle{splncs}	
+\bibliography{./msms,./bandeiraLab}
+
+\end{document} 

@@ -1,0 +1,125 @@
+Making install in config
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/config'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/config'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/config'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/config'
+Making install in m4
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/m4'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/m4'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/m4'
+Making install in term
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/term'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/term'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/home/pbouchard/share/gnuplot/4.2/PostScript" || /bin/mkdir -p "/home/pbouchard/share/gnuplot/4.2/PostScript"
+ /usr/bin/install -c -m 644 'PostScript/8859-15.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/8859-15.ps'
+ /usr/bin/install -c -m 644 'PostScript/8859-1.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/8859-1.ps'
+ /usr/bin/install -c -m 644 'PostScript/8859-2.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/8859-2.ps'
+ /usr/bin/install -c -m 644 'PostScript/cp1250.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/cp1250.ps'
+ /usr/bin/install -c -m 644 'PostScript/cp437.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/cp437.ps'
+ /usr/bin/install -c -m 644 'PostScript/cp850.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/cp850.ps'
+ /usr/bin/install -c -m 644 'PostScript/cp852.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/cp852.ps'
+ /usr/bin/install -c -m 644 'PostScript/koi8r.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/koi8r.ps'
+ /usr/bin/install -c -m 644 'PostScript/koi8u.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/koi8u.ps'
+ /usr/bin/install -c -m 644 'PostScript/prologue.ps' '/home/pbouchard/share/gnuplot/4.2/PostScript/prologue.ps'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/term'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/term'
+Making install in src
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/src'
+Making install in wxterminal
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/src/wxterminal'
+make[3]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/src/wxterminal'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/src/wxterminal'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/src/wxterminal'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/src'
+make[3]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/src'
+test -z "/home/pbouchard/bin" || /bin/mkdir -p "/home/pbouchard/bin"
+  /usr/bin/install -c 'gnuplot' '/home/pbouchard/bin/gnuplot'
+test -z "/home/pbouchard/libexec/gnuplot/4.2" || /bin/mkdir -p "/home/pbouchard/libexec/gnuplot/4.2"
+  /usr/bin/install -c 'gnuplot_x11' '/home/pbouchard/libexec/gnuplot/4.2/gnuplot_x11'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/src'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/src'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/src'
+Making install in docs
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/docs'
+../mkinstalldirs /home/pbouchard/share/gnuplot/4.2
+/usr/bin/install -c -m 644 gnuplot.gih /home/pbouchard/share/gnuplot/4.2/gnuplot.gih
+../mkinstalldirs /home/pbouchard/share/info
+/usr/bin/install -c -m 644 gnuplot.info /home/pbouchard/share/info/gnuplot.info
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/docs'
+Making install in lisp
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/lisp'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/lisp'
+make[2]: Nothing to be done for `install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/lisp'
+/bin/sh ./../mkinstalldirs /home/pbouchard/share/emacs/site-lisp
+ /usr/bin/install -c -m 644 gnuplot-gui.el /home/pbouchard/share/emacs/site-lisp/gnuplot-gui.el
+ /usr/bin/install -c -m 644 gnuplot.el /home/pbouchard/share/emacs/site-lisp/gnuplot.el
+ /usr/bin/install -c -m 644 info-look.20.2.el /home/pbouchard/share/emacs/site-lisp/info-look.20.2.el
+ /usr/bin/install -c -m 644 info-look.20.3.el /home/pbouchard/share/emacs/site-lisp/info-look.20.3.el
+/bin/sh ./../mkinstalldirs /home/pbouchard/share/emacs/site-lisp
+ /usr/bin/install -c -m 644 gnuplot.elc /home/pbouchard/share/emacs/site-lisp/gnuplot.elc
+ /usr/bin/install -c -m 644 gnuplot-gui.elc /home/pbouchard/share/emacs/site-lisp/gnuplot-gui.elc
+make[3]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/lisp'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/lisp'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/lisp'
+Making install in man
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/man'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/man'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/home/pbouchard/share/man/man1" || /bin/mkdir -p "/home/pbouchard/share/man/man1"
+ /usr/bin/install -c -m 644 './gnuplot.1' '/home/pbouchard/share/man/man1/gnuplot.1'
+make  install-data-hook
+make[3]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/man'
+make[3]: Nothing to be done for `install-data-hook'.
+make[3]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/man'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/man'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/man'
+Making install in demo
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/demo'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/demo'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/demo'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/demo'
+Making install in tutorial
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/tutorial'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/tutorial'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/tutorial'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/tutorial'
+Making install in share
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/share'
+Making install in LaTeX
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/share/LaTeX'
+make[3]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/share/LaTeX'
+make[3]: Nothing to be done for `install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/share/LaTeX'
+make[4]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/share/LaTeX'
+make[3]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/share/LaTeX'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/share/LaTeX'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/share'
+make[3]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5/share'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/home/pbouchard/lib/X11/app-defaults" || /bin/mkdir -p "/home/pbouchard/lib/X11/app-defaults"
+ /usr/bin/install -c -m 644 'Gnuplot' '/home/pbouchard/lib/X11/app-defaults/Gnuplot'
+make[3]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/share'
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/share'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5/share'
+make[1]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5'
+make[2]: Entering directory `/home/pbouchard/rpm/gnuplot-4.2.5'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5'
+make[1]: Leaving directory `/home/pbouchard/rpm/gnuplot-4.2.5'
